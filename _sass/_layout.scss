@@ -4,17 +4,20 @@
 .site-header {
     // border-top: 5px solid $grey-color-dark;
     // border-bottom: 1px solid $grey-color;
-    min-height: 56px;
+    // min-height: 56px;
     height: auto;
-    padding-top: $spacing-unit;
 
-    // Positioning context for the mobile navigation icon
-    position: relative;
+    background-color: $background-color;
+    box-shadow: 1px 1px 30px 0 rgba(0,0,0,.15);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 3;
 
     .wrapper {
         position: relative;
-        padding-top: $spacing-unit/2;
-        padding-bottom: $spacing-unit/2;
+        padding-top: $spacing-unit/3 + 5;
+        padding-bottom: $spacing-unit/3;
     }
 
     .site-title:hover {
@@ -69,16 +72,16 @@
 
         font-size: 20px;
         color: $text-color;
-        display: inline;
         margin: 0px 10px;
+        transition: 0.3s ease;
 
         border-bottom: 4px solid rgba(0,0,0,0);
-        padding: 20px 0px;
+        padding: 0px 0px 20px 0px; // top right bottom left
 
         &.current {
             text-decoration: none;
             border-bottom: 4px solid $grey-color;
-            padding: 6px 0px;
+            padding: 0px 0px 6px 0px;
             color: $grey-color;
         }
 
@@ -87,7 +90,7 @@
             transition: 0.3s ease;
             text-decoration: none;
             border-bottom: 4px solid $grey-color;
-            padding: 6px 0px; 
+            padding: 0px 0px 6px 0px;
             color: $grey-color;
         }
     }

@@ -31,6 +31,7 @@ body {
     background-size: cover;
 
     background-color: rgba(237, 236, 232, 1);
+    // background-color: lighten($background-color, 15%);
 
     height: 100%;
     overflow: auto;
@@ -180,10 +181,8 @@ pre {
 
     .page-content &, .site-footer &{
         padding-top: $spacing-unit;
+        background-color: rgba(255,255,255,0.7);
     }
-
-    background-color: rgba(255,255,255,0.7);
-
 
     @extend %clearfix;
 
