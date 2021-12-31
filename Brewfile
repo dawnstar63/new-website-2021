@@ -1,0 +1,7 @@
+tap "homebrew/bundle"
+tap "homebrew/core"
+brew "bash-completion"
+brew "go"
+brew "make"
+brew "rbenv"
+brew "ruby"

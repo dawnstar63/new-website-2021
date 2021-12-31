@@ -5,7 +5,7 @@ permalink: /about/
 order: 1
 ---
 
-<img style="float: left;" height = "300" src="/img/Elena Ariza small.jpeg">
+<img class="float-left" height = "300" src="/img/Elena-Ariza-small.jpeg">
 
 Elena Ariza is a cellist from Cupertino, California and is currently pursuing an Artist Diploma in cello performance at The Juilliard School. She previously attended Columbia University, majoring in computer science, as part of its exchange program with Juilliard. She has performed as Principal Cellist of the Juilliard Orchestra under the batons of Nicholas McGegan, Speranza Scappucci, David Robertson, and Patricia Rogers. She was a finalist of the Juilliard Concerto Competition in 2019.
 

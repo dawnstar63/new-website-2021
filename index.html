@@ -1,18 +1,55 @@
 ---
 layout: default
 ---
-<article class="post">
+<div class="parallax header lazy-image" data-large="img/elena-ariza-golden-gate-bridge-filter-lighter-smaller.jpg" parallax="0.7">
+	<img src="img/elena-ariza-golden-gate-bridge-filter-lighter-smaller-lazy.png" class="loaded img-small">
+</div>
+<div class="scene header"></div>
 
-  <div class="post-content">
-	<header class="post-header">
-		<h1 class="post-title">Welcome</h1>
-	</header>
+<div class="scene solid">
+	<article class="post wrapper">
+		<header class="post-header">
+			<h1 class="post-title">Welcome</h1>
+		</header>
 
-    <p>Hi there, welcome to my website!</p>
+		<div class="post-content">
+		<img class="float-right" width="270px" src="img/elena-ariza-golden-gate-bridge-filter-lighter-smaller.jpg">
+	    <p>Hi there, welcome to my website!</p>
 
-    <p>A bit about myself: I'm a cellist and coder currently pursuing an Artist Diploma at The Juilliard School. Previously, I received my Masters in Music from Juilliard and a Bachelors in Computer Science at Columbia University, as part of <a href="https://www.columbiaspectator.com/eye/2016/09/19/barnard-columbia-juilliard-effect/" target="_blank">their exchange program</a>. I grew up in the San Francisco Bay Area, and was a student at the San Francisco Conservatory of Music Pre-College Division and a member of the San Francisco Symphony Youth Orchestra.</p>
+	    <p>A bit about myself: I'm a cellist and coder currently pursuing an Artist Diploma at The Juilliard School. Previously, I received my Masters in Music from Juilliard and a Bachelors in Computer Science at Columbia University, as part of <a href="https://www.columbiaspectator.com/eye/2016/09/19/barnard-columbia-juilliard-effect/" target="_blank">their exchange program</a>. I grew up in the San Francisco Bay Area, and was a student at the San Francisco Conservatory of Music Pre-College Division and a member of the San Francisco Symphony Youth Orchestra.</p>
 
-    <p>As of fall 2021, I am giving this website a much-needed overhaul – many more pages are in the works, but feel free to browse around!</p>
-  </div>
+	    <p>ATTENTION: As of Fall 2021, I am giving this website a much-needed overhaul – many more pages are in the works, but feel free to browse around!</p>
+	  	</div>
 
-</article>
+	</article>
+</div>
+
+<!-- When a rate isn't specified, it will be calculated such that the image always fills the space between the
+element before it and the next element with the "parallax-cover" attribute. -->
+<div class="parallax lazy-image" data-large="img/elena-ariza-golden-gate-bridge-filter-lighter-smaller.jpg" parallax="0.7">
+	<img src="img/elena-ariza-golden-gate-bridge-filter-lighter-smaller-lazy.png" class="loaded img-small">
+</div>
+<div class="scene"></div>
+
+
+<div class="scene solid">
+	<article class="post wrapper">
+	  <div class="post-content">
+		<header class="post-header">
+			<h1 class="post-title">Recents</h1>
+		</header>
+		<div class="concerts-preview">
+			{% include events-tmpl.html num_events_show="3" %}
+		</div>
+		<br>
+		<h3><a href="/events">View all</a></h3>
+	  </div>
+	</article>
+</div>
+
+<!-- When a rate isn't specified and there is no subsequent element with the "parallax-cover" attribute the rate
+will be calculated such that the image slides until the end of the scrollable content. -->
+<div class="parallax lazy-image" data-large="img/elena-ariza-golden-gate-bridge-filter-lighter-smaller.jpg" parallax="0.7">
+	<img src="img/elena-ariza-golden-gate-bridge-filter-lighter-smaller-lazy.png" class="loaded img-small">
+</div>
+<div class="scene"></div>

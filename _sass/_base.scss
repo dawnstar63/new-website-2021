@@ -13,10 +13,20 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
+
+p, ol, ul > :last-child {
+    margin-bottom: 0 !important;
+    margin-right: 0 !important;
+}
+
+html {
+    height: 100%;
+    overflow: auto;
+}
+
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
-    // background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -24,11 +34,13 @@ body {
     font-feature-settings: "kern" 1;
     font-kerning: normal;
 
-    background-image: url("../img/elena ariza golden gate bridge filter lighter smaller.jpg");
-    background-repeat: no-repeat; 
-    background-position: 65% center;
-    background-attachment: fixed;
-    background-size: cover;
+    // background-image: url("../img/elena-ariza-golden-gate-bridge-filter-lighter-smaller.jpg");
+    // background-repeat: no-repeat; 
+    // background-position: 65% center;
+    // background-attachment: fixed;
+    // background-size: cover;
+
+    // data-image-full: url("../img/elena ariza golden gate bridge filter lighter smaller tiny.jpg");
 
     background-color: rgba(237, 236, 232, 1);
     // background-color: lighten($background-color, 15%);
@@ -36,11 +48,36 @@ body {
     height: 100%;
     overflow: auto;
 
+    display: flex;
+    flex-direction: column;
+
+    // word-break: break-word;
+
+    // -webkit-hyphens: manual;
+    // -moz-hyphens: manual;
+    // -ms-hyphens: manual;
+    // hyphens: manual;
+
+    // /* These are technically the same, but use both */
+    // overflow-wrap: break-word;
+    // word-wrap: break-word;
+
+    // -ms-word-break: break-all;
+    // This is the dangerous one in WebKit, as it breaks things wherever
+    // // word-break: break-all;
+    // /* Instead use this non-standard one: */
+    // word-break: break-word;
+
+    // /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    // -ms-hyphens: auto;
+    // -moz-hyphens: auto;
+    // -webkit-hyphens: auto;
+    // hyphens: auto;
+
     // background-image: url("/img/Elena Ariza small.jpeg");
     // background-repeat: no-repeat;
 
 }
-
 
 
 /**
@@ -53,6 +90,11 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
+p {
+    text-align: justify;
+    text-justify: inter-word; 
+}
+
 
 
 /**
@@ -61,6 +103,17 @@ ul, ol, dl, figure,
 img {
     max-width: 100%;
     vertical-align: middle;
+    margin-bottom: $spacing-unit/4;
+
+    &.float-left {
+        float: left;
+        margin-right: $spacing-unit/2;
+    }
+
+    &.float-right {
+        float: right;
+        margin-left: $spacing-unit/2;
+    }
 }
 
 
@@ -106,9 +159,11 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Links
  */
+ 
 a {
     color: $link-color;
-    text-decoration: none;
+    text-decoration: underline 1%;
+    text-underline-offset: 6%;
 
     &:visited {
         color: $link-visited-color;
@@ -116,7 +171,6 @@ a {
 
     &:hover {
         color: darken($link-color, 20%);
-        text-decoration: underline;
     }
 }
 
@@ -167,13 +221,14 @@ pre {
 }
 
 
-
 /**
  * Wrapper
  */
 .wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    width: 100%;
+    box-sizing: border-box;
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
@@ -181,16 +236,16 @@ pre {
 
     .page-content &, .site-footer &{
         padding-top: $spacing-unit;
-        background-color: rgba(255,255,255,0.7);
+        padding-bottom: $spacing-unit
     }
 
     @extend %clearfix;
 
     @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 1.5));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit} * 1.5));
+        padding-right: $spacing-unit * 0.75;
+        padding-left: $spacing-unit * 0.75;
     }
 }
 

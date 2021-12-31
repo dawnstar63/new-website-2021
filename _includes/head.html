@@ -1,4 +1,5 @@
 <head> 
+  <base href="{{ site.url }}">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,10 +10,52 @@
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  
+  <script src="https://code.jquery.com/jquery-1.8.3.min.js"></script>
 
-  <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
   <script src="/js/nav.js"></script>
   <script src="/js/lazyload.js"></script>
+  <script src="/js/events.js"></script>
+  <script src="/js/parallax.js"></script>
+  <script src="/js/save-scroll.js"></script>
+  <script src="/js/contact.js"></script>
+  
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      initializeParallax(document.querySelector('.viewport'));
+    });
+  </script>
+
+
+  <!-- CONTACTS TEMPLATE: https://colorlib.com/wp/template/contact-form-v5/ -->
+  <script>
+    $(".js-select2").each(function(){
+      $(this).select2({
+        minimumResultsForSearch: 20,
+        dropdownParent: $(this).next('.dropDownSelect2')
+      });
+
+
+      $(".js-select2").each(function(){
+        $(this).on('select2:close', function (e){
+          if($(this).val() == "Please chooses") {
+            $('.js-show-service').slideUp();
+          }
+          else {
+            $('.js-show-service').slideUp();
+            $('.js-show-service').slideDown();
+          }
+        });
+      });
+    })
+  </script>
+  <!-- END CONTACTS TEMPLATE -->
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-83977005-2"></script>
@@ -23,6 +66,7 @@
 
     gtag('config', 'UA-83977005-2');
   </script>
+<!-- 
 
-
+  {% seo %}
 </head>

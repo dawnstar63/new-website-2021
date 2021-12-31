@@ -4,7 +4,7 @@ if(isset($_POST['email'])) {
     // CHANGE THE TWO LINES BELOW
     $email_to = "me@elenaariza.com";
      
-    $email_subject = "contact email from website";
+    $email_subject = "contact form from website";
      
      
     function died($error) {

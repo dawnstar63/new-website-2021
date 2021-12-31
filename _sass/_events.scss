@@ -1,0 +1,92 @@
+table.events-table {
+    table-layout: fixed;
+}
+
+.event-row > td {
+    border: 1px #999;
+    border-style: solid none;
+    padding: 14px 0px;
+}
+
+.event-details {
+    &.text-font {
+        vertical-align: top;
+    }
+    padding-bottom: 5px;
+}
+
+.event-details {
+    border-top: none;
+    padding: 0px 0px;
+}
+
+.event-detail {
+    > td {
+        display: table-cell;
+    }
+}
+
+.preserve-newlines {
+    white-space: pre-line;
+    // display: inline-block;
+}
+
+.event-title {
+    a {
+        color: $text-color;
+    }
+    line-height: 1.3;
+    padding-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+.date-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // top right bottom left
+    margin: 3px 0rem 0rem 14px;
+    border-radius: 3px;
+    width: 2.0em;
+    height: 2.4em;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    font-size: 1.5rem;
+    background: lighten(rgb(122, 131, 160), 28%);
+
+    .date-icon-inner {
+        font: inherit;
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: 1;
+        text-align: center;
+
+        .icon-day-font {
+            letter-spacing: -1;
+        }
+
+        .icon-month-font {
+            text-transform: uppercase;
+            font-size: 50%;
+        }
+    }
+}
+
+.date-icon-margin {
+    width: $spacing-unit/2;
+}
+
+.material-icons {
+    vertical-align: top;
+
+    &.md-18 {
+        width: 18px;
+        font-size: 18px;
+        line-height: 1.3;
+        padding-right: 8px;
+    }
+}
+
+.break-words {
+    word-break: break-word;
+    overflow-wrap: break-word;
+}

@@ -16,7 +16,7 @@ $spacing-unit:     	40px;
 
 $text-color:       	rgba(50,50,90,1);
 $background-color: 	#fdfcfa;
-$link-color:      	#2a7ae2;
+$link-color:      	darken(#2a7ae2, 11%);
 $link-visited-color:#8d57bd;
 
 $grey-color:       	#A096A0;
@@ -24,11 +24,10 @@ $grey-color-light: 	lighten($grey-color, 20%);
 $grey-color-dark:  	darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    	800px;
+$content-width:    	1000px;
 
 $on-palm:          	600px;
 $on-laptop:        	800px;
-
 
 $site-title-font-size: 45px;
 
@@ -52,6 +51,10 @@ $site-title-font-size: 45px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
+        "events",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "parallax",
+        "contact",
+        "image-gallery"
 ;

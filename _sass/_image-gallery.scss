@@ -1,0 +1,35 @@
+.image-gallery {
+	box-sizing: border-box;
+	display: grid;
+
+	gap: calc(min(#{$spacing-unit}, 2vw));
+
+	grid-template-columns: repeat(3, auto);
+	@include media-query($on-palm) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.gallery-item {
+	.img-small {
+		filter: blur(3px);
+		transform: scale(1.05);
+	}
+
+	aspect-ratio: 1;
+	overflow: hidden;
+
+	// direct child
+	> * {
+		display: block;
+		position: relative;
+		left: 0;
+		right: 0;
+	}
+
+	img {
+		object-fit: cover;
+		min-width: 100%;
+		min-height: 100%;
+	}
+}

@@ -1,0 +1,121 @@
+<table class="events-table">
+    <tbody>
+
+        {% assign how_many = include.num_events_show 
+            | default: site.data.events.size %}
+        {% assign events = site.data.events | slice: 0, how_many %}
+    	{% for event in events %}
+        <tr class="event-row" valign="top">
+
+            <!-- LEFT-SIDE DATE ICON -->
+            <td width="70px">
+                <div class="date-icon">
+                    <div class="date-icon-inner">
+                        <div class="day-number icon-day-font">
+                        	{{- event.date | date: "%d" | to_integer -}}
+                        </div>
+                        <div class="month icon-month-font">
+                        	{{- event.date | date: "%b" -}}
+                        </div>
+                    </div>
+                </div>
+            </td>
+            <!-- END OF DATE ICON -->
+
+            <td width="10px"><div class="date-icon-margin"></div></td>
+
+            <!-- EVENT DETAILS -->
+            <td><table class="event-details text-font">
+                    
+                <!-- EVENT TITLE -->
+                {% if event.link %}
+                <tr>
+                <td class="event-title" colspan="2">
+                    <a href="{{ event.link }}" target="_blank">
+                    	{{- event.title -}}
+                    </a>
+                    <!-- <span class="icomoon-link"></span> -->
+                </td>
+                {% else %}
+                <td class="event-title" colspan="2">
+                    {{- event.title -}}
+                    <!-- <span class="icomoon-link"></span> -->
+                </td>
+                </tr>
+                {% endif %}
+
+
+                <!-- DATE -->
+                {% if event.end_date %}
+                <tr class="event-detail when date">
+                	<td id="date-icon" class="material-icons md-18">date_range</td>
+                    <td>
+                	{{- event.date | date: "%A, %B" }} 
+					{{ event.date | date: "%d" | to_integer }} ~ 
+					{{ event.end_date | date: "%A, %B" }} 
+					{{ event.end_date | date: "%d" | to_integer }}, 
+					{{ event.end_date | date: "%Y" }}
+					</td>
+                <tr>
+                {% elsif event.date %}
+                <tr class="event-detail when date">
+                	<td id="date-icon" class="material-icons md-18">event</td>
+                    <td>
+                	{{- event.date | date: "%A, %B" }} 
+					{{ event.date | date: "%d" | to_integer }}, 
+					{{ event.date | date: "%Y" }}
+                    </td>
+				</tr>
+                {% endif %}
+
+                <!-- TIME -->
+                {% if event.time %}
+                <tr class="event-detail when time">
+                    <td id="clock-icon" class="material-icons md-18">schedule</td>
+                    <td>
+                	{{- event.time -}}
+                    </td>
+                </tr>
+                {% endif %}
+
+                <!-- LOCATION -->
+                {% if event.location_nolink %}
+                <tr class="event-detail where location">
+                	<td id="location-icon" class="material-icons md-18">place</td>
+                    <td>
+        			{{- event.location_nolink -}}
+                    </td>
+                </tr>
+                {% elsif event.location %}
+                <tr class="event-detail where location">
+                	<td id="location-icon" class="material-icons md-18">place</td>
+                	<td class="location-link">
+                		{{- event.location -}}
+                	</td>
+                </tr>
+                {% endif %}
+
+                <!-- LINK -->
+                {% if event.link %}
+                <tr class="event-detail link link-container" icon="link">
+                	<td id="link-icon" class="material-icons md-18">link</td>
+                    <td><a class="break-words" href="{{- event.link -}}" target="_blank">
+                    	{{- event.link -}}
+                    </a></td>
+                </tr>
+                {% endif %}
+
+                <!-- DETAILS -->
+                {% if event.details %}
+                <tr class="event-detail description truncated">
+                	<td id="link-icon" class="material-icons md-18">notes</td>
+                    <td class="preserve-newlines">{{- event.details -}}</td>
+                </tr>
+                {% endif %}
+
+            </table></td>
+            <!-- END OF EVENT DETAILS -->
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
