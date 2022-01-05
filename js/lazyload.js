@@ -34,12 +34,6 @@
 	
 // }
 
-const golden_gate = "img/elena-ariza-golden-gate-bridge-filter-lighter-smaller.jpg";
-const images_map = new Map([
-	[golden_gate, 'golden-gate'],
-	['/'+golden_gate, 'golden-gate']
-	]);
-
 window.onload = function() {
 	
 	// get all lazy image elements
@@ -65,11 +59,6 @@ window.onload = function() {
 
 
 		const imgLarge = new Image();
-
-		if (images_map.has(imgLargeSrc)) {
-			lazy_image.classList.add(images_map.get(imgLargeSrc));
-		}
-
 		imgLarge.src = imgLargeSrc;
 		imgLarge.onload = function () {
 			// mark large image as loaded
