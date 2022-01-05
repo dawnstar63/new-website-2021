@@ -34,7 +34,7 @@
 
 
 .header-links {
-
+    position: relative;
 }
 
 .site-title {
@@ -44,6 +44,11 @@
     white-space: nowrap;
     transition: 0.3s ease;
     text-decoration: none;
+
+    @include media-query($on-palm) {
+        font-size: 35px;
+        font-weight: 300;
+    }
 
     &,
     &:visited {
@@ -57,11 +62,10 @@
 }
 
 .site-nav {
-
     display: inline;
     position: relative;
     // width: 100%;
-    text-align: right;
+    text-align: left;
     line-height: $base-line-height;
     
     -webkit-flex: auto; /* Safari 6.1+ */
@@ -100,6 +104,117 @@
         }
     }
 
+}
+
+
+#menuToggle {
+    input {
+        display: none;
+    }
+    display: inline;
+}
+
+@include media-query($on-laptop) {
+    #menuToggle {
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      z-index: 1;
+      -webkit-user-select: none;
+      user-select: none;
+    }
+
+    #menuToggle input
+    {
+      display: flex;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      cursor: pointer;
+      opacity: 0;
+      z-index: 2;
+    }
+
+    #menuToggle span
+    {
+      display: flex;
+      width: 30px;
+      height: 3px;
+      margin-bottom: 6px;
+      position: relative;
+      background: $grey-color-dark;
+      border-radius: 5px;
+      z-index: 1;
+      transform-origin: 50% 50%;
+      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                  background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                  opacity 0.55s ease;
+    }
+
+    #menuToggle input:checked ~ span
+    {
+        // 8px of translate comes from height + margin-bottom
+        // of each the 3 lines in the hamburger icon
+      opacity: 1;
+      transform: translate(0px, 9px) rotate(45deg);
+    }
+    #menuToggle input:checked ~ span:nth-last-child(3)
+    {
+      opacity: 0;
+      transform: rotate(0deg) scale(0.2, 0.2);
+    }
+
+    #menuToggle input:checked ~ span:nth-last-child(2)
+    {
+      transform: translate(0, -9px) rotate(-45deg);
+    }
+
+    .site-nav
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: auto;
+        max-width: 80vw;
+        height: 100vh;
+        box-shadow: 0 0 15px #85888C;
+        margin: -50px -30px 0 0;
+        padding: 50px;
+        padding-top: 125px;
+        -webkit-font-smoothing: antialiased;
+        transform-origin: 0% 0%;
+        transform: translate(108%, 0);
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+
+        display: flex;
+        flex-direction: column;
+        background-color: $background-color;
+    }
+
+    .site-nav .page-link
+    {
+        &, &.current, &:hover {
+            font-size: 25px;
+            font-weight: 400;
+            text-align: left;
+            padding: 10px 0;
+            text-decoration: none;
+            border-bottom: none;
+        }
+        &:hover {
+            color: $grey-color-light;
+        }
+    }
+
+    #menuToggle input:checked ~ .site-nav
+    {
+      transform: none;
+    }
 }
 
 

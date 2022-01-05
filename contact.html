@@ -6,15 +6,15 @@ permalink: /contact/
 order: 4
 ---
 <!-- https://colorlib.com/etc/cf/ContactFrom_v5/index.html -->
-<form class="contact100-form validate-form">
+<form class="contact100-form validate-form" method="post" action="/html_form_send.php">
 
 	<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate="Enter Your First Name">
 		<span class="label-input100">First Name *</span>
-		<input class="input100" type="text" name="name" placeholder="Your First Name">
+		<input class="input100" type="text" name="first_name" placeholder="Your First Name">
 	</div>
 	<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate="Enter Your Last Name">
 		<span class="label-input100">Last Name *</span>
-		<input class="input100" type="text" name="name" placeholder="Your Last Name">
+		<input class="input100" type="text" name="last_name" placeholder="Your Last Name">
 	</div>
 
 	<div class="wrap-input100 validate-input bg1" data-validate = "Email (example@email.com)">
@@ -34,7 +34,7 @@ order: 4
 	</div>
 
 	<div class="container-contact100-form-btn">
-		<button class="contact100-form-btn">
+		<button type="submit" class="contact100-form-btn">
 			<span>
 				Submit
 				<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>

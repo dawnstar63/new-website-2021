@@ -5,7 +5,12 @@
     <div class="header-links">
       <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
       <div class="space-nav"></div>
-      <nav class="site-nav">
+        <div id="menuToggle">
+              <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+        <nav class="site-nav">
           {% assign sorted_pages = site.pages | sort:"order" %}
 
           {% for my_page in sorted_pages %}
@@ -13,9 +18,8 @@
             <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
             {% endif %}
           {% endfor %}
-
-
       </nav>
+      </div>
 
     </div>
 

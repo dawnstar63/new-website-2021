@@ -1,5 +1,5 @@
 table.events-table {
-    table-layout: fixed;
+    table-layout: auto;
 }
 
 .event-row > td {
@@ -45,23 +45,23 @@ table.events-table {
     justify-content: center;
     align-items: center;
     // top right bottom left
-    margin: 3px 0rem 0rem 14px;
+    margin: 3px 0rem 0rem 3px;
     border-radius: 3px;
     width: 2.0em;
     height: 2.4em;
     box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-    font-size: 1.5rem;
+    font-size: calc(min(1.5rem, 6vw));
     background: lighten(rgb(122, 131, 160), 28%);
 
     .date-icon-inner {
         font: inherit;
-        font-size: 1.5rem;
+        font-size: 110%;
         font-weight: 600;
         line-height: 1;
         text-align: center;
 
         .icon-day-font {
-            letter-spacing: -1;
+            // letter-spacing: -1;
         }
 
         .icon-month-font {
@@ -72,7 +72,7 @@ table.events-table {
 }
 
 .date-icon-margin {
-    width: $spacing-unit/2;
+    width: calc(min(#{$spacing-unit} / 2, 5vw));
 }
 
 .material-icons {

@@ -46,15 +46,31 @@ window.onload = function() {
 	const lazy_images = document.querySelectorAll('.lazy-image');
 
 	lazy_images.forEach(function(lazy_image) {
+
+		const imgLargeSrc = lazy_image.dataset.large;
+
 		// get small/lazy image
 		const small = lazy_image.querySelector('.img-small');
-		const imgLarge = new Image();
-
-		if (images_map.has(lazy_image.dataset.large)) {
-			lazy_image.classList.add(images_map.get(lazy_image.dataset.large));
+		if (small == null) {
+			const imgSmall = new Image();
+			imgSmall.src = "//images.weserv.nl/?url=v2.elenaariza.com" + 
+				imgLargeSrc + "&w=25&h=25&fit=cover&a=attention&output=png";
+			imgSmall.alt = imgLargeSrc;
+			imgSmall.classList.add("img-small");
+			imgSmall.onload = function () {
+				imgSmall.classList.add("loaded");
+			}
+			lazy_image.appendChild(imgSmall);
 		}
 
-		imgLarge.src = lazy_image.dataset.large;
+
+		const imgLarge = new Image();
+
+		if (images_map.has(imgLargeSrc)) {
+			lazy_image.classList.add(images_map.get(imgLargeSrc));
+		}
+
+		imgLarge.src = imgLargeSrc;
 		imgLarge.onload = function () {
 			// mark large image as loaded
 			imgLarge.classList.add('loaded');
@@ -63,5 +79,4 @@ window.onload = function() {
 		// add large image to the lazy_image element
 		lazy_image.appendChild(imgLarge);
 	});
-
 }

@@ -14,7 +14,9 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 
-p, ol, ul > :last-child {
+p:last-child,
+ol:last-child,
+ul:last-child {
     margin-bottom: 0 !important;
     margin-right: 0 !important;
 }
@@ -46,7 +48,7 @@ body {
     // background-color: lighten($background-color, 15%);
 
     height: 100%;
-    overflow: auto;
+    overflow: hidden;
 
     display: flex;
     flex-direction: column;
@@ -92,7 +94,8 @@ ul, ol, dl, figure,
 
 p {
     text-align: justify;
-    text-justify: inter-word; 
+    text-justify: inter-word;
+    margin-bottom: $spacing-unit / 2;
 }
 
 
@@ -101,18 +104,42 @@ p {
  * Images
  */
 img {
-    max-width: 100%;
+    // max-width: 100%;
     vertical-align: middle;
     margin-bottom: $spacing-unit/4;
 
-    &.float-left {
+    &.float-left,
+    .float-left & {
+        object-fit: cover;
+        max-width: calc(min(300px, 40vw));
+        height: auto;
+
         float: left;
-        margin-right: $spacing-unit/2;
+        padding-right: $spacing-unit/2;
+
+        @include media-query(400px) {
+            max-width: none;
+            display: block;
+            width: 100%;
+            margin-right: 0;
+        }
     }
 
-    &.float-right {
+    &.float-right,
+    .float-right & {
+        object-fit: cover;
+        max-width: calc(min(300px, 40vw));
+        height: auto;
+
         float: right;
-        margin-left: $spacing-unit/2;
+        padding-left: $spacing-unit/2;
+
+        @include media-query(400px) {
+            max-width: none;
+            display: block;
+            width: 100%;
+            margin-left: 0;
+        }
     }
 }
 
@@ -174,6 +201,9 @@ a {
     }
 }
 
+s {
+    text-decoration-thickness: 2%;
+}
 
 
 /**

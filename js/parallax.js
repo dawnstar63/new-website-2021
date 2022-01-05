@@ -73,10 +73,10 @@ function initializeParallax(clip) {
 			nextCover = nextCover.nextElementSibling;
 
 		parallaxDetails.push({'node': parallax[i],
-													'top': parallax[i].offsetTop,
-													'sticky': !!sticky,
-													'nextCover': nextCover,
-													'previousCover': previousCover});
+							'top': parallax[i].offsetTop,
+							'sticky': !!sticky,
+							'nextCover': nextCover,
+							'previousCover': previousCover});
 	}
 
 	// Add a scroll listener to hide perspective elements when they should no
@@ -105,7 +105,7 @@ function initializeParallax(clip) {
 		parallax[i].parentNode.insertBefore(parallax[i], parallax[i].parentNode.firstChild);
 	}
 
-	console.log("initialized!")
+	console.log("initialized!");
 }
 
 function onResize(details) {

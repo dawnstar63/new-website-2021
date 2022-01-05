@@ -9,25 +9,24 @@
 }
 
 .scene {
-	height: 80vh;
-	// padding: 3vh 5vw;
-
-	@include media-query($on-palm) {
-		// padding: 2vh 2vw;
-	}
+	height: calc(min(60vw, 80vh));
+	// height: 80vh;
 
 	&:not(.solid) {
 		box-shadow: inset 0 0 200px rgba(100,100,100,0.5);
-		max-height: 60vw;
+		// max-height: 60vw;
 	}
 }
 
 .parallax img {
 	object-position: 50% 50%;
 	box-sizing: border-box;
-	max-height: 70vw;
-	height: 90vh;
-	margin-bottom: -90vh;
+	// max-height: 80vw;
+	height: calc(min(85vw, 90vh));
+	margin-bottom: calc(max(-85vw, -90vh));
+	// height: 90vh;
+	// margin-bottom: -90vh;
+	object-fit: cover;
   	// Since the parallax elements still consume space, we set the margin to undo
     // the height of this parallax element making it essentially consume 0 space.
 
@@ -36,14 +35,18 @@
 }
 
 .lazy-image {
-	width: 100%;
+	min-width: 100%;
+	min-height: 100%;
 }
 
 .lazy-image img {
     position: absolute;
 
-    transition: opacity 1s ease-out;
     -webkit-transition: opacity 1s ease-in-out;
+       -moz-transition: opacity 1s ease-out;
+        -ms-transition: opacity 1s ease-out;
+    		transition: opacity 1s ease-out;
+    
 
     object-fit: cover;
 
@@ -57,63 +60,53 @@
 	filter: blur(20px);
      // this is needed so Safari keeps sharp edges 
     transform: scale(1);
-
-    transition: opacity 1s ease-out;
-    -webkit-transition: opacity 1s ease-in-out;
 }
 
 .golden-gate img {
-	object-position: 80% 55%;
+	object-position: 80% 65%;
 }
 
 .header {
 	// the image
 	&.parallax img {
-		height: 80vh;
-		margin-bottom: -80vh;
+		height: calc(min(70vw, 100vh));
+		margin-bottom: calc(max(-70vw, -100vh));
+		// height: 70vh;
+		// margin-bottom: -70vh;
 	}
 
 	// the transparent space
 	&.scene {
-		height: 70vh;
+		height: calc(min(60vw, 90vh));
+		// height: 70vh;
 	}
 
-	@include media-query($on-palm) {
-		&.parallax img {
-			height: 80vh;
-			margin-bottom: -80vh;
-		}
+	// @include media-query($on-palm) {
+	// 	&.parallax img {
+	// 		height: 80vh;
+	// 		margin-bottom: -80vh;
+	// 	}
 
-		// the transparent space
-		&.scene {
-			height: 70vh;
-		}
-	}
+	// 	// the transparent space
+	// 	&.scene {
+	// 		height: 70vh;
+	// 	}
+	// }
 }
 
 
 .page-header {
+	$ph-height: 60vh;
+
 	// the image
 	&.parallax img {
-		height: 60vh;
-		margin-bottom: -60vh;
+		height: $ph-height;
+		margin-bottom: -1 * $ph-height;
 	}
 
 	// the transparent space
 	&.scene {
-		height: 50vh;
-	}
-
-	@include media-query($on-palm) {
-		&.parallax img {
-			height: 50vh;
-			margin-bottom: -50vh;
-		}
-
-		// the transparent space
-		&.scene {
-			height: 40vh;
-		}
+		height: $ph-height - 10vh;
 	}
 }
 

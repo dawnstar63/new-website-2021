@@ -1,13 +1,19 @@
 <div class="image-gallery">
+{% for file in site.static_files %}
+{% if file.path contains include.folder %}
+{% if file.extname == '.jpg' or 
+	file.extname == '.jpeg' or 
+	file.extname == '.JPG' or 
+	file.extname == '.JPEG' %}
 
 <div class="gallery-item">
-	{% assign filepath = "img/elena-ariza-golden-gate-bridge-filter-lighter-smaller.jpg" %}
-	<a href="{{ filepath }}" title="{{ filepath }}" class="lazy-image" data-large="img/elena-ariza-golden-gate-bridge-filter-lighter-smaller.jpg">
-
-		<!-- <img src="img/elena-ariza-golden-gate-bridge-filter-lighter-smaller-lazy.png" class="loaded img-small"> -->
-
-		<img src="images.weserv.nl/?url={{ site.url }}/{{ filepath }}&w=20&h=20&fit=cover&a=attention" alt="{{ file.name }}" class="loaded img-small">
+	<a href="{{ file.path }}" title="Click to view full size" class="lazy-image" data-large="{{ file.path }}">
+		<!-- <img src="//images.weserv.nl/?url=v2.elenaariza.com{{ file.path }}&w=25&h=25&fit=cover&a=attention&output=png" alt="{{ file.name }}" class="loaded img-small"> -->
 	</a>
 </div>
+
+{% endif %}
+{% endif %}
+{% endfor %}
 
 </div>
