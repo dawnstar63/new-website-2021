@@ -13,13 +13,6 @@
     z-index: 3;
     text-decoration: none;
     box-shadow: 1px 1px 30px 0 rgba(0,0,0,.15);
-
-    .wrapper {
-        position: relative;
-        padding-top: $spacing-unit/3 + 5;
-        padding-bottom: $spacing-unit/3;
-    }
-    
 }
 
 .site-header, .site-footer {

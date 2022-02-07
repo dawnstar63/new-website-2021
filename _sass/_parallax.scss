@@ -9,7 +9,7 @@
 }
 
 .scene {
-	height: calc(min(60vw, 80vh));
+	height: calc(min(70vw, 80vh));
 	// height: 80vh;
 
 	&:not(.solid) {
@@ -22,8 +22,8 @@
 	object-position: 50% 50%;
 	box-sizing: border-box;
 	// max-height: 80vw;
-	height: calc(min(85vw, 90vh));
-	margin-bottom: calc(max(-85vw, -90vh));
+	height: calc(min(100vw, 85vh));
+	margin-bottom: calc(max(-100vw, -85vh));
 	// height: 90vh;
 	// margin-bottom: -90vh;
 	object-fit: cover;
@@ -31,7 +31,7 @@
     // the height of this parallax element making it essentially consume 0 space.
 
     position: -webkit-sticky;
-    width: 100%;
+    min-width: 100%;
 }
 
 .lazy-image {

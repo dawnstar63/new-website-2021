@@ -6,8 +6,8 @@
 	file.extname == '.JPG' or 
 	file.extname == '.JPEG' %}
 
-<div class="gallery-item">
-	<a href="{{ file.path }}" title="Click to view full size" class="lazy-image" data-large="{{ file.path }}">
+<div class="gallery-item container">
+	<a href="{{ file.path }}" title="Click to view full size" class="lazy-image glightbox" data-large="{{ file.path }}">
 		<!-- <img src="//images.weserv.nl/?url=v2.elenaariza.com{{ file.path }}&w=25&h=25&fit=cover&a=attention&output=png" alt="{{ file.name }}" class="loaded img-small"> -->
 	</a>
 </div>

@@ -48,7 +48,7 @@ window.onload = function() {
 		if (small == null) {
 			const imgSmall = new Image();
 			imgSmall.src = "//images.weserv.nl/?url=v2.elenaariza.com" + 
-				imgLargeSrc + "&w=25&h=25&fit=cover&a=attention&output=png";
+				imgLargeSrc + "&w=25&h=25&fit=cover&output=png";
 			imgSmall.alt = imgLargeSrc;
 			imgSmall.classList.add("img-small");
 			imgSmall.onload = function () {

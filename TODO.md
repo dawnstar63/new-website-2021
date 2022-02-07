@@ -2,7 +2,8 @@ TODO:
 
 
 WIP/important:
-- contact: set up contact form!!!
+- make gallery images able to do lightbox
+- eliminate underline transition for current page in menu bar?
 
 GENERAL:
 - make float images able to do lazy-image?

@@ -23,7 +23,7 @@ ul:last-child {
 
 html {
     height: 100%;
-    overflow: auto;
+    overflow: hidden;
 }
 
 body {
@@ -264,9 +264,20 @@ pre {
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
 
-    .page-content &, .site-footer &{
+    .page-content & {
+        padding-top: calc(max(#{$spacing-unit}, 4vw));
+        padding-bottom: calc(max(#{$spacing-unit}, 4vw));
+    }
+
+    .site-footer &{
         padding-top: $spacing-unit;
-        padding-bottom: $spacing-unit
+        padding-bottom: $spacing-unit;
+    }
+
+    .site-header & {
+        position: relative;
+        padding-top: $spacing-unit/3 + 5;
+        padding-bottom: $spacing-unit/3;
     }
 
     @extend %clearfix;
