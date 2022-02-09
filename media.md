@@ -16,7 +16,7 @@ order: 3
 
 <!-- solo recital Britten Solo Suite -->
 <div class="iframe-container" style="width: 100%; padding-top: 56.25%; position: relative;">
-<iframe style="position: absolute; inset: 0; height: 100%; width: 100%;" src="https://www.youtube.com/embed/kqt6o2-cc1w" frameborder="0" allowfullscreen></iframe>
+<iframe style="position: absolute; inset: 0; height: 100%; width: 100%;" src="https://www.youtube.com/embed/LgdrE2x-oJE" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <br>
