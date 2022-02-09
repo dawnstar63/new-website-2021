@@ -1,11 +1,12 @@
 .viewport {
 	height: 100%;
 	overflow-x: hidden;
-	overflow-y: auto;
+	overflow-y: scroll;
 	position: relative;
 	-webkit-overflow-scrolling: touch;
 
 	transform-style: preserve-3d;
+	perspective: 1px;
 }
 
 .scene {
@@ -31,7 +32,9 @@
     // the height of this parallax element making it essentially consume 0 space.
 
     position: -webkit-sticky;
+    top: 0px;
     min-width: 100%;
+    width: 100%;
 }
 
 .lazy-image {
@@ -66,18 +69,22 @@
 	object-position: 80% 55%;
 }
 
+.purple-long-photo img {
+	object-position: 30% 50%;
+}
+
 .header {
 	// the image
 	&.parallax img {
-		height: calc(min(70vw, 100vh));
-		margin-bottom: calc(max(-70vw, -100vh));
+		height: calc(min(80vw, 100vh));
+		margin-bottom: calc(max(-80vw, -100vh));
 		// height: 70vh;
 		// margin-bottom: -70vh;
 	}
 
 	// the transparent space
 	&.scene {
-		height: calc(min(60vw, 90vh));
+		height: calc(min(70vw, 90vh));
 		// height: 70vh;
 	}
 

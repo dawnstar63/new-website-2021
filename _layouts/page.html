@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="parallax page-header lazy-image" data-large="{{ page.image }}" parallax="0.7">
+<div class="parallax page-header lazy-image {{ page.image_class }}" data-large="{{ page.image }}" parallax="0.7">
 	<img src="{{ page.image | replace: '.jpg', '-lazy.png' }}" class="loaded img-small">
 </div>
 <div class="scene page-header"></div>
