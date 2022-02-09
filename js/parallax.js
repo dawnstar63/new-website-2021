@@ -137,7 +137,9 @@ function onResize(details) {
 		var dx = scrollbarWidth * (scale - 1);
 		// Offset for the position within the container.
 		var dy = details[i].sticky ?
-				-(clip.scrollHeight - parallaxStart - height) * (1 - scale) :
+		// original was v clip.scrollHeight? but it gave issues only for mobile b/c
+		// details[i].sticky was true
+				-(container.scrollHeight - parallaxStart - height) * (1 - scale) :
 				(parallaxStart - depth * (height - clip.clientHeight)) * scale;
 
 		details[i].node.style.transform = 'scale(' + (1 - depth) + ') translate3d(' + dx + 'px, ' + dy + 'px, ' + depth + 'px)';

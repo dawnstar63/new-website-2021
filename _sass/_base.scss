@@ -128,7 +128,7 @@ img {
     &.float-right,
     .float-right & {
         object-fit: cover;
-        max-width: calc(min(300px, 40vw));
+        max-width: calc(min(270px, 40vw));
         height: auto;
 
         float: right;

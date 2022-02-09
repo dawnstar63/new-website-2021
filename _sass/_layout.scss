@@ -8,6 +8,8 @@
     height: auto;
 
     position: sticky;
+    position: -webkit-sticky;
+
     top: 0;
     width: 100%;
     z-index: 3;
@@ -246,7 +248,7 @@ table {
     box-shadow: 1px 1px 15px 0 rgba(0,0,0,.15);
     flex-shrink: 0;
 
-    position: relative;
+    position: sticky;
 }
 
 .footer-heading {

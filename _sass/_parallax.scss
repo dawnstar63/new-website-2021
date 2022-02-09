@@ -31,7 +31,6 @@
   	// Since the parallax elements still consume space, we set the margin to undo
     // the height of this parallax element making it essentially consume 0 space.
 
-    // position: -webkit-sticky;
     top: 0px;
     min-width: 100%;
     width: 100%;
@@ -48,7 +47,7 @@
     -webkit-transition: opacity 1s ease-in-out;
        -moz-transition: opacity 1s ease-out;
         -ms-transition: opacity 1s ease-out;
-    		transition: opacity 1s ease-out;
+				transition: opacity 1s ease-out;
     
 
     object-fit: cover;
@@ -90,13 +89,13 @@
 
 	// @include media-query($on-palm) {
 	// 	&.parallax img {
-	// 		height: 80vh;
-	// 		margin-bottom: -80vh;
+	// 		width: 100vw;
+	// 		margin-bottom: -100vh;
 	// 	}
 
 	// 	// the transparent space
 	// 	&.scene {
-	// 		height: 70vh;
+	// 		height: 50vh;
 	// 	}
 	// }
 }

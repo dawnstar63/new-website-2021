@@ -4,6 +4,7 @@ TODO:
 WIP/important:
 - make gallery images able to do lightbox
 - eliminate underline transition for current page in menu bar?
+- https://ready.mobi/#2068610-h2ho
 
 GENERAL:
 - make float images able to do lazy-image?
