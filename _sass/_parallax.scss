@@ -23,8 +23,8 @@
 	object-position: 50% 50%;
 	box-sizing: border-box;
 	// max-height: 80vw;
-	height: calc(min(100vw, 85vh));
-	margin-bottom: calc(max(-100vw, -85vh));
+	height: calc(min(95vw, 85vh));
+	margin-bottom: calc(max(-95vw, -85vh));
 	// height: 90vh;
 	// margin-bottom: -90vh;
 	object-fit: cover;
@@ -75,8 +75,8 @@
 .header {
 	// the image
 	&.parallax img {
-		height: calc(min(80vw, 100vh));
-		margin-bottom: calc(max(-80vw, -100vh));
+		height: calc(min(70vw, 100vh));
+		margin-bottom: calc(max(-70vw, -100vh));
 		// height: 70vh;
 		// margin-bottom: -70vh;
 	}
