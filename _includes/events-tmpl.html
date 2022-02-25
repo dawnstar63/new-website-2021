@@ -3,7 +3,17 @@
 
         {% assign how_many = include.num_events_show 
             | default: site.data.events.size %}
-        {% assign events = site.data.events | slice: 0, how_many %}
+
+        <!-- 1st reverse makes it most recent first, to older -->
+        {% assign events = site.data.events | sort: 'date' | reverse %}
+        <!-- 2nd, get {{ how_many }} of the most recent events -->
+        {% assign events = events | slice: 0, how_many %}
+
+        <!-- then, if we want upcoming in ascending order -->
+        {% if include.reverse %}
+            {% assign events = events | reverse %}
+        {% endif %}
+
     	{% for event in events %}
         <tr class="event-row" valign="top">
 
