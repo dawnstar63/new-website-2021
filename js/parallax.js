@@ -137,7 +137,7 @@ function onResize(details) {
 		var dx = scrollbarWidth * (scale - 1);
 		// Offset for the position within the container.
 		var dy = details[i].sticky ?
-		// original was v clip.scrollHeight? but it gave issues only for mobile b/c
+		// original was clip.scrollHeight? but it gave issues only for mobile b/c
 		// details[i].sticky was true
 				-(container.scrollHeight - parallaxStart - height) * (1 - scale) :
 				(parallaxStart - depth * (height - clip.clientHeight)) * scale;

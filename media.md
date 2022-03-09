@@ -2,7 +2,7 @@
 layout: page
 title: Media
 permalink: /media/
-image: null
+image: /img/elena-ariza-leaning-bush.jpg
 order: 3
 ---
 

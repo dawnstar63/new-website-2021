@@ -72,6 +72,14 @@
 	object-position: 30% 50%;
 }
 
+.top-25 img {
+	object-position: 50% 25%;
+}
+
+.top-75 img {
+	object-position: 50% 75%;
+}
+
 .header {
 	// the image
 	&.parallax img {
