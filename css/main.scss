@@ -51,10 +51,10 @@ $site-title-font-size: 45px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
-        "events",
         "layout",
         // "syntax-highlighting",
         "parallax",
+        "events",
         "contact",
         "image-gallery",
         "glightbox"

@@ -3692,7 +3692,6 @@
 
 })));
 
-
 var myLightbox = GLightbox({
-    'selector': 'glightbox'
-});
+  'selector': 'glightbox'
+})
