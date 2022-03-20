@@ -35,6 +35,7 @@
 // }
 
 window.onload = function() {
+// setTimeout(function() {
 	
 	// get all lazy image elements
 	const lazy_images = document.querySelectorAll('.lazy-image');
@@ -68,4 +69,5 @@ window.onload = function() {
 		// add large image to the lazy_image element
 		lazy_image.appendChild(imgLarge);
 	});
-}
+// },0);
+};

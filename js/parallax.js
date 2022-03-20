@@ -101,7 +101,7 @@ function initializeParallax(clip) {
 	});
 	window.addEventListener('resize', onResize.bind(null, parallaxDetails));
 	onResize(parallaxDetails);
-	for (var i = 0; i < parallax.length; i++) {
+	for (var i = parallax.length-1; i >=0; i--) {
 		parallax[i].parentNode.insertBefore(parallax[i], parallax[i].parentNode.firstChild);
 	}
 
@@ -141,6 +141,17 @@ function onResize(details) {
 		// details[i].sticky was true
 				-(container.scrollHeight - parallaxStart - height) * (1 - scale) :
 				(parallaxStart - depth * (height - clip.clientHeight)) * scale;
+		// console.log(container, dy);
+		// console.log("container.scrollHeight", container.scrollHeight);
+		// console.log("parallaxStart", parallaxStart);
+		// console.log("height", height);
+		// console.log("scale", scale);
+		// console.log("parallaxStart", parallaxStart);
+		// console.log("depth", depth);
+		// console.log("height", height);
+		// console.log("clip.clientHeight", clip.clientHeight);
+		// console.log("scale", scale);
+		// console.log(details[i].sticky);
 
 		details[i].node.style.transform = 'scale(' + (1 - depth) + ') translate3d(' + dx + 'px, ' + dy + 'px, ' + depth + 'px)';
 	}
