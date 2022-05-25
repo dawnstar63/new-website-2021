@@ -7,10 +7,10 @@
         <!-- 1st reverse makes it most recent first, to older -->
         {% assign events = site.data.events | sort: 'date' | reverse %}
         <!-- 2nd, get {{ how_many }} of the most recent events -->
-        {% assign events = events | slice: 0, how_many %}
+        <!-- {% assign events = events | slice: 0, how_many %} -->
 
         <!-- then, if we want upcoming in ascending order -->
-        {% if include.reverse %}
+        {% if include.upcoming %}
             {% assign events = events | reverse %}
         {% endif %}
 
