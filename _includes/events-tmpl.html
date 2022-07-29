@@ -7,18 +7,34 @@
         <!-- 1st reverse makes it most recent first, to older -->
         {% assign events = site.data.events | sort: 'date' | reverse %}
         <!-- 2nd, get {{ how_many }} of the most recent events -->
-        <!-- {% assign events = events | slice: 0, how_many %} -->
+        {% assign events = events | slice: 0, how_many %}
 
         <!-- then, if we want upcoming in ascending order -->
         {% if include.upcoming %}
             {% assign events = events | reverse %}
+        {% else %}
+            {% assign date-hidden = "date-hidden" %}
         {% endif %}
 
     	{% for event in events %}
+        {% capture nowdate %}{{ 'now' | date: '%s' }}{% endcapture %}
+        {% capture eventdate %}{{ event.date | date: '%s' }}{% endcapture %}
+        {% assign nowdate = nowdate | plus: 0 %}
+        {% assign eventdate = eventdate | plus: 0 %}
+
+        {% assign show_event = false %}
+        {% if include.upcoming and nowdate <= eventdate %}
+            {% assign show_event = true %}
+        {% endif %}
+        {% if include.upcoming != true and nowdate > eventdate %}
+            {% assign show_event = true %}
+        {% endif %}
+
+        {% if show_event %}
         <tr class="event-row" valign="top">
 
             <!-- LEFT-SIDE DATE ICON -->
-            <td>
+            <td class="date-column">
                 <div class="date-icon">
                     <div class="date-icon-inner">
                         <div class="day-number icon-day-font">
@@ -32,7 +48,7 @@
             </td>
             <!-- END OF DATE ICON -->
 
-            <td><div class="date-icon-margin"></div></td>
+            <td class="margin-column"><div class="date-icon-margin"></div></td>
 
             <!-- EVENT DETAILS -->
             <td><table class="event-details text-font">
@@ -126,6 +142,8 @@
             </table></td>
             <!-- END OF EVENT DETAILS -->
         </tr>
+
+        {% endif %}
         {% endfor %}
     </tbody>
 </table>

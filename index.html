@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="parallax header lazy-image top-25" data-large="/img/Elena-Ariza-colorful-leaves-edited.jpg" parallax="0.8">
+<div class="parallax header lazy-image top-25 left-80" data-large="/img/elena-ariza-leaning-against-wall-edited-long-16-compressed.jpg" parallax="0.8">
 	<!-- <img src="/img/Elena-Ariza-colorful-leaves-edited.jpg" class="loaded"> -->
 </div>
 <div class="scene header"></div>
@@ -19,7 +19,17 @@ layout: default
 
 	    <p>I am a cellist based in New York City, currently pursuing an Artist Diploma at The Juilliard School under the guidance of Astrid Schween and Joel Krosnick. Previously, I received my Masters in Music from Juilliard and a Bachelors in Computer Science at Columbia University, as part of <a href="https://www.columbiaspectator.com/eye/2016/09/19/barnard-columbia-juilliard-effect/" target="_blank">their exchange program</a>. I grew up in the San Francisco Bay Area, and was a student at the San Francisco Conservatory of Music Pre-College Division and a member of the San Francisco Symphony Youth Orchestra.</p>
 
-	    <h4><a href="/about">Read more</a></h4>
+	    <a href="/about" class="no-underline">
+		<div class="container-button">
+			<button type="button" class="button">
+			<span>
+				Read more
+				<!-- <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i> -->
+				<i class="m-l-7"> →</i>
+			</span>
+			</button>
+		</div>
+		</a>
 
 	  	</div>
 
@@ -28,7 +38,7 @@ layout: default
 
 <!-- When a rate isn't specified, it will be calculated such that the image always fills the space between the
 element before it and the next element with the "parallax-cover" attribute. -->
-<div class="parallax lazy-image top-10" data-large="/img/elena-ariza-leaning-against-wall-edited-min.jpg" parallax="0.8">
+<div class="parallax lazy-image top-00 left-70" data-large="/img/Elena-Ariza-colorful-leaves-edited.jpg" parallax="0.8">
 	<!-- <img src="/img/leaning-against-wall-edited.jpg" class="loaded"> -->
 </div>
 <div class="scene"></div>
@@ -38,13 +48,23 @@ element before it and the next element with the "parallax-cover" attribute. -->
 	<article class="post wrapper">
 	  <div class="post-content">
 		<header class="post-header">
-			<h1 class="post-title">Concerts</h1>
+			<h1 class="post-title">Up Next</h1>
 		</header>
 		<div class="concerts-preview">
-			{% include events-tmpl.html num_events_show="3" %}
+			{% include events-tmpl.html upcoming=true num_events_show="3" %}
 		</div>
 		<br>
-		<h3><a href="/events">View all</a></h3>
+		<a href="/schedule" class="no-underline">
+		<div class="container-button">
+			<button type="button" class="button">
+			<span>
+				View all
+				<!-- <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i> -->
+				<i class="m-l-7"> →</i>
+			</span>
+			</button>
+		</div>
+		</a>
 	  </div>
 	</article>
 </div>

@@ -33,7 +33,10 @@
 }
 
 .site-title {
+    font-family: $site-title-font-family;
     font-size: $site-title-font-size;
+    color: $site-title-font-color;
+    letter-spacing: 2px;
     font-weight: 300;
     display: inline;
     white-space: nowrap;
@@ -45,9 +48,8 @@
         font-weight: 300;
     }
 
-    &,
     &:visited {
-        color: $grey-color-dark;
+        color: $site-title-font-color;
     }
 
     &:hover {
@@ -67,7 +69,7 @@
     -ms-flex: auto; /* IE 10 */ 
     flex: auto;
 
-    margin-left: 50px;
+    margin-left: 35px;
     width: 100%;
 
 
@@ -179,7 +181,7 @@
         max-width: 80vw;
         height: 100vh;
         box-shadow: 0 0 15px #85888C;
-        margin: -50px -30px 0 0;
+        margin: -50px -40px 0 0;
         padding: 50px;
         padding-top: 125px;
         -webkit-font-smoothing: antialiased;
@@ -209,7 +211,7 @@
 
     #menuToggle input:checked ~ .site-nav
     {
-      transform: none;
+        transform: none;
     }
 }
 
@@ -416,4 +418,68 @@ table {
             font-size: 16px;
         }
     }
+}
+
+
+.container-button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: calc(max(180px, 20%));
+  height: 50px;
+  // background-color: $grey-color-light;
+  background-color: #e67422;
+  border-radius: 25px;
+
+  font-family: $base-font-family;
+  font-size: 16px;
+  color: $site-title-font-color;
+  text-decoration: none;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.button i {
+  display: inline-block;
+
+  -webkit-transition: transform 0.4s;
+  -o-transition: transform 0.4s;
+  -moz-transition: transform 0.4s;
+  transition: transform 0.4s;
+}
+
+.button:hover {
+  background-color: darken(#b84d00, 10%);
+}
+
+.button:hover i {
+  -webkit-transform: translateX(10px);
+  -moz-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  -o-transform: translateX(10px);
+  transform: translateX(10px);
+}
+
+.m-l-7 {
+  margin-left: 7px;
 }

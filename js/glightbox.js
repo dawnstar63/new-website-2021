@@ -3693,5 +3693,7 @@
 })));
 
 var myLightbox = GLightbox({
-  'selector': 'glightbox'
+  selector: 'glightbox'
 })
+
+console.log('Lightbox opened')

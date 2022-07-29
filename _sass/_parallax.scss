@@ -10,7 +10,7 @@
 }
 
 .scene {
-	height: calc(min(70vw, 80vh));
+	height: calc(min(90vw, 80vh));
 	// height: 80vh;
 
 	&:not(.solid) {
@@ -23,8 +23,8 @@
 	object-position: 50% 50%;
 	box-sizing: border-box;
 	// max-height: 80vw;
-	height: calc(min(95vw, 85vh));
-	margin-bottom: calc(max(-95vw, -85vh));
+	height: calc(min(105vw, 85vh));
+	margin-bottom: calc(max(-105vw, -85vh));
 	// height: 90vh;
 	// margin-bottom: -90vh;
 	object-fit: cover;
@@ -48,7 +48,6 @@
        -moz-transition: opacity 1s ease-out;
         -ms-transition: opacity 1s ease-out;
 				transition: opacity 1s ease-out;
-    
 
     object-fit: cover;
 
@@ -58,62 +57,32 @@
 	}
 }
 
-.img-small {
-	filter: blur(20px);
-     // this is needed so Safari keeps sharp edges 
-    transform: scale(1);
-}
-
-.golden-gate img {
-	object-position: 80% 55%;
-}
-
-.purple-long-photo img {
-	object-position: 30% 50%;
-}
-
-.top-00 img {
-	object-position: 50% 0%;
-}
-
-.top-10 img {
-	object-position: 50% 10%;
-}
-
-.top-25 img {
-	object-position: 50% 25%;
-}
-
-.top-75 img {
-	object-position: 50% 75%;
-}
-
 .header {
 	// the image
 	&.parallax img {
-		height: calc(min(70vw, 100vh));
-		margin-bottom: calc(max(-70vw, -100vh));
-		// height: 70vh;
-		// margin-bottom: -70vh;
+		// height: calc(min(130vw, 100vh));
+		// margin-bottom: calc(max(-130vw, -100vh));
+		height: 100vh;
+		margin-bottom: -100vh;
 	}
 
 	// the transparent space
 	&.scene {
-		height: calc(min(70vw, 90vh));
-		// height: 70vh;
+		// height: calc(min(110vw, 90vh));
+		height: 90vh;
 	}
 
-	// @include media-query($on-palm) {
-	// 	&.parallax img {
-	// 		width: 100vw;
-	// 		margin-bottom: -100vh;
-	// 	}
+	@include media-query($on-palm) {
+		&.parallax img {
+			height: 110vh;
+			margin-bottom: -110vh;
+		}
 
-	// 	// the transparent space
-	// 	&.scene {
-	// 		height: 50vh;
-	// 	}
-	// }
+		// the transparent space
+		&.scene {
+			height: 85vh;
+		}
+	}
 }
 
 
@@ -144,4 +113,40 @@
 	min-height: 40vh;
 
 	background-color: $background-color;
+}
+
+.img-small {
+	filter: blur(20px);
+     // this is needed so Safari keeps sharp edges 
+    transform: scale(1);
+}
+
+.golden-gate img {
+	object-position: 80% 55%;
+}
+
+.purple-long-photo img {
+	object-position: 30% 50%;
+}
+
+.top-00 img {
+	object-position: 50% 0%;
+}
+.top-00.left-70 img {
+	object-position: 70% 0%;
+}
+
+.top-10 img {
+	object-position: 50% 10%;
+}
+
+.top-25 img {
+	object-position: 50% 25%;
+}
+.top-25.left-80 img {
+	object-position: 80% 25%;
+}
+
+.top-75 img {
+	object-position: 50% 75%;
 }

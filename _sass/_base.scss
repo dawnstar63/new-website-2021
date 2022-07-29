@@ -199,6 +199,10 @@ a {
     &:hover {
         color: darken($link-color, 20%);
     }
+
+    &.no-underline {
+        text-decoration: none;
+    }
 }
 
 s {

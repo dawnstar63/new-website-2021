@@ -47,6 +47,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 return false;
             }
         }
+        else if ($(input).attr('type') == 'phone' || $(input).attr('name') == 'phone') {
+            if($(input).val().trim().match(/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im) == null) {
+                return false;
+            }
+        }
         else {
             if($(input).val().trim() == ''){
                 return false;

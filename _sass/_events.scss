@@ -6,6 +6,13 @@ table.events-table {
     border: 1px #999;
     border-style: solid none;
     padding: 14px 0px;
+
+    &.date-column {
+        width: 2em;
+    }
+    &.margin-column {
+        width: 3%;
+    }
 }
 
 .event-details {
@@ -68,6 +75,11 @@ table.events-table {
             text-transform: uppercase;
             font-size: 50%;
         }
+    }
+
+    &.date-hidden {
+        color: lighten($text-color, 15%);
+        background: lighten(lighten(rgb(122, 131, 160), 28%), 10%);
     }
 }
 

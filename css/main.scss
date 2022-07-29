@@ -14,7 +14,7 @@ $base-line-height: 	1.5;
 
 $spacing-unit:     	40px;
 
-$text-color:       	rgba(50,50,90,1);
+$text-color:       	#432814;
 $background-color: 	#fdfcfa;
 $link-color:      	darken(#2a7ae2, 11%);
 $link-visited-color:#8d57bd;
@@ -27,9 +27,11 @@ $grey-color-dark:  	darken($grey-color, 25%);
 $content-width:    	1000px;
 
 $on-palm:          	600px;
-$on-laptop:        	800px;
+$on-laptop:        	900px;
 
-$site-title-font-size: 45px;
+$site-title-font-size: 50px;
+$site-title-font-family: "Cinzel", Times New Roman, serif;
+$site-title-font-color: #432814;
 
 
 

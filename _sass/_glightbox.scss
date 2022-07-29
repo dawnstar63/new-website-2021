@@ -1,6 +1,6 @@
 .glightbox-container {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
@@ -895,7 +895,7 @@ iframe.wait-autoplay {
     max-width: 275px;
   }
   .glightbox-open {
-    height: auto;
+    // height: auto;
   }
   .goverlay {
     background: rgba(0, 0, 0, 0.92);
