@@ -11,7 +11,7 @@ email: me@elenaariza.com
 description: > # this means to ignore newlines until "baseurl:"
   Official website of Elena Ariza.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://v2.elenaariza.com" # the base hostname & protocol for your site
+url: "https://elenaariza.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
@@ -25,4 +25,4 @@ defaults:
       path: ""
     values:
       layout: "default"
-      image: "/img/elena-ariza-golden-gate-bridge-filter-lighter-smaller.jpg"
+      image: "/img/elena-ariza-leaning-against-wall-edited-min.jpg"
