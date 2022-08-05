@@ -9,6 +9,9 @@ WIP/important:
 GENERAL:
 - make float images able to do lazy-image?
 
+Gallery:
+- tap outside picture to close – search "hasClass"
+
 Events:
 - "Read more" in Events details
 - more events on Events page
