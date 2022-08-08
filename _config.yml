@@ -12,9 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Official website of Elena Ariza.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://elenaariza.com" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-# github_username:  jekyll
-instagram_username: elenaarizacello
+image: "/img/elena-ariza-leaning-against-wall-edited-min.jpg"
 
 # Build settings
 markdown: kramdown
