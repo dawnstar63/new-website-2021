@@ -48,7 +48,7 @@ window.onload = function() {
 		const small = lazy_image.querySelector('.img-small');
 		if (small == null) {
 			const imgSmall = new Image();
-			imgSmall.src = "//images.weserv.nl/?url=v2.elenaariza.com" + 
+			imgSmall.src = "//images.weserv.nl/?url=elenaariza.com" + 
 				imgLargeSrc + "&w=25&fit=cover&output=png";
 			imgSmall.alt = imgLargeSrc;
 			imgSmall.classList.add("img-small");
