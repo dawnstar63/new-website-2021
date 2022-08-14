@@ -19,6 +19,7 @@ Events:
 	- or just playing images like in Kevin's
 
 Mobile:
+- gallery pictures are slightly below center
 
 Contact:
 
