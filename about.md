@@ -9,7 +9,7 @@ order: 1
 
 <!-- <img class="float-left" height="300px" width="246.58px" src="/img/Elena-Ariza-small.jpeg"> -->
 
-Elena Ariza is a highly sought-after cellist in New York City, currently pursuing the prestigious Artist Diploma at The Juilliard School. She previously received her Masters in Music at Juilliard and her Bachelor of Arts at Columbia University, majoring in computer science, as part of its exchange program with Juilliard. She has performed as Principal Cellist of the Juilliard Orchestra under the batons of Nicholas McGegan, Speranza Scappucci, David Robertson, and David Chan. 
+Currently pursuing an Artist Diploma at The Juilliard School, cellist <b>Elena Ariza</b> has amassed numerous competition wins and concerto appearances since she began playing cello at age four. She previously received her Masters of Music at Juilliard and her Bachelor of Arts at Columbia University majoring in computer science, as part of its exchange program with Juilliard. 
 
 Most recently, Elena won 1st prize at the 2022 Gustav Mahler Prize Cello Competition, 1st prize at the 2022 Philharmonic Society of Arlington Young Artist Competition, and was a finalist in both the 2021 and 2019 Juilliard Concerto Competition. She participated in the Taos School of Music during the summer of 2021, and subsequently toured through Utah and Nevada, performing fundraising concerts for the Haitian earthquake with her long-time collaborator, pianist Misha Galant. 
 
