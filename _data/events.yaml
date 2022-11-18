@@ -12,18 +12,38 @@
   time: 7:30pm ET
   title: "Solo Recital at Juilliard"
   location: Rosemary and Meredith Willson Theater, Juilliard
+  link: https://www.juilliard.edu/event/159826/elena-ariza-cello
   details: |-
-    Program TBD
+    Franck Bridge: Four Pieces
+    Arvo Pärt: Fratres
+    Janacek: Pohadka
+    Carter: Cello Sonata
+    Tyson Davis: Tableau VIII
+    Paganini: Caprice No.13
+
+    with Yoon Lee, piano
 - date: 2022-12-04
-  time: 6pm
-  title: "Bartok Quartet No.5 in Concert"
+  time: 3:30pm
+  title: "Brahms Viola Quintet No.2 in Concert"
   location: Morse Hall, Juilliard
   details: |-
-    Yuyu Ikeda, Aileen Chung, violins
-    Lynn Sue-A-Quan, viola
+    Ria Honda, Elli Choi, violins
+    Isabella Bignasca, Sydney Whipple, violas
     Elena Ariza, cello
-# - date: 2022-10-22
-#   title: "VISION Ukraine benefit"
+- date: 2022-10-28
+  time: 7pm
+  title: "VISION + Friends - A Benefit Concert for Ukraine"
+  location: Spectrum - 481 Van Brunt Street Brooklyn, NY, 11231
+  link: https://1visioncollective.org/engagements/vision-friends-a-benefit-concert-for-ukraine-sop
+  details: |-
+    Mykola Lysenko: La Tristesse
+    Ryan Jung, piano
+- date: 2022-10-16
+  time: 5pm
+  title: "Masterclass with Li-Wei Qin"
+  location: Juilliard School
+  details: |-
+    Haydn Cello Concerto No. 2 in D Major
 - date: 2022-10-06
   end_date: 2022-10-11
   title: "Perlman Music Program: Alumni Retreat 2022"
