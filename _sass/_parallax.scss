@@ -19,7 +19,7 @@
 	}
 }
 
-.parallax img {
+.parallax > img {
 	object-position: 50% 50%;
 	box-sizing: border-box;
 	// max-height: 80vw;
@@ -41,7 +41,7 @@
 	min-height: 100%;
 }
 
-.lazy-image img {
+.lazy-image > img {
     position: absolute;
 
     -webkit-transition: opacity 1s ease-in-out;
@@ -59,7 +59,7 @@
 
 .header {
 	// the image
-	&.parallax img {
+	&.parallax > img {
 		// height: calc(min(130vw, 100vh));
 		// margin-bottom: calc(max(-130vw, -100vh));
 		height: 100vh;
@@ -73,7 +73,7 @@
 	}
 
 	@include media-query($on-palm) {
-		&.parallax img {
+		&.parallax > img {
 			height: 110vh;
 			margin-bottom: -110vh;
 		}
@@ -90,7 +90,7 @@
 	$ph-height: 60vh;
 
 	// the image
-	&.parallax img {
+	&.parallax > img {
 		height: $ph-height;
 		margin-bottom: -1 * $ph-height;
 	}
@@ -121,7 +121,7 @@
     transform: scale(1);
 }
 
-.golden-gate img {
+.golden-gate > img {
 	object-position: 80% 55%;
 }
 
@@ -129,24 +129,24 @@
 	object-position: 30% 50%;
 }
 
-.top-00 img {
+.top-00 > img {
 	object-position: 50% 0%;
 }
 .top-00.left-70 img {
 	object-position: 70% 0%;
 }
 
-.top-10 img {
+.top-10 > img {
 	object-position: 50% 10%;
 }
 
-.top-25 img {
+.top-25 > img {
 	object-position: 50% 25%;
 }
-.top-25.left-80 img {
+.top-25.left-80 > img {
 	object-position: 80% 25%;
 }
 
-.top-75 img {
+.top-75 > img {
 	object-position: 50% 75%;
 }
