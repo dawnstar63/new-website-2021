@@ -2,12 +2,10 @@
     <tbody>
 
         {% assign how_many = include.num_events_show 
-            | default: site.data.events.size %}
+            | default: site.data.events.size | plus: 0 %}
 
         <!-- 1st reverse makes it most recent first, to older -->
         {% assign events = site.data.events | sort: 'date' | reverse %}
-        <!-- 2nd, get {{ how_many }} of the most recent events -->
-        {% assign events = events | slice: 0, how_many %}
 
         <!-- then, if we want upcoming in ascending order -->
         {% if include.upcoming %}
@@ -17,6 +15,7 @@
         {% endif %}
 
     	{% for event in events %}
+
         {% capture nowdate %}{{ 'now' | date: '%s' }}{% endcapture %}
         {% capture eventdate %}{{ event.date | date: '%s' }}{% endcapture %}
         {% assign nowdate = nowdate | plus: 0 %}
@@ -31,13 +30,16 @@
         {% endif %}
 
         {% if show_event %}
+
+        {% if how_many <= 0 %}
+    		{% break %}
+    	{% endif %}
+    	{% assign how_many = how_many | minus: 1 %}
+
         <tr class="event-row" valign="top">
 
             <!-- LEFT-SIDE DATE ICON -->
             <td class="date-column">
-
-                
-
                 <div class="date-icon">
                     <div class="date-icon-inner">
                         <div class="day-number icon-day-font">

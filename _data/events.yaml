@@ -1,3 +1,32 @@
+- date: 2023-05-05
+  time: 5:30pm
+  title: Joint Recital with Zoey Xinyue Zhou, piano
+  location: Morse Hall, Juilliard School
+- date: 2023-04-20
+  time: 8pm
+  title: Isabella Bignasca, Graduation Recital
+  location: Paul Hall, Juilliard
+  link: https://www.juilliard.edu/event/159141/isabella-bignasca-viola
+- date: 2023-04-12
+  title: Sonatenabend at The Juilliard School
+  location: Paul Hall, Juilliard
+- date: 2023-03-30
+  time: 8pm
+  title: Elena Ariza's Graduation Recital
+  location: Morse Hall, Juilliard School
+  link: https://www.juilliard.edu/event/159036/elena-ariza-cello
+- date: 2023-03-05
+  time: 3pm
+  title: Maine Mountain Chamber Music
+  location: "Nordica Auditorium, Farmington, ME 04938, USA"
+  link: https://www.artsfarmington.org/events-1/maine-mountain-chamber-music-7
+  details: |-
+    Yuri Funahashi (piano), Laurie Kennedy (viola) with guest artists Gianluca Pane (violin) and Elena Ariza (cello).
+    Music of Beethoven, Nadia Boulanger, and Astor Piazzolla.
+- date: 2023-02-17
+  time: 6:30pm
+  title: Astrid Schween Studio Recital
+  location: Broadway Presbyterian Church, NY
 - date: 2023-02-11
   time: 7:30pm ET
   title: "Haydn D Concerto with Arlington Philharmonic Orchestra"
@@ -8,6 +37,16 @@
     Franz Joseph Haydn – Cello Concerto No. 2 in D Major
     Johannes Brahms – Variations on a Theme of Haydn
     with Orlando Cela, Music Director
+- date: 2023-01-23
+  time: 8pm
+  title: Nina Bernat in Recital
+  location: Morse Hall, Juilliard
+  details: |-
+    Libby Larsen: Up, Where the Air Gets Thin
+    Delibes: Lakmé Duo des Fleurs (Flower Duet)
+    Elena Ariza, cello
+    Nina Bernat, double bass
+    Umi Garrett, piano
 - date: 2022-12-07
   time: 7:30pm ET
   title: "Solo Recital at Juilliard"
