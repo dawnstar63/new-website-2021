@@ -457,6 +457,12 @@ table {
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
   transition: all 0.4s;
+
+  box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
 .button i {
@@ -470,6 +476,12 @@ table {
 
 .button:hover {
   background-color: darken(#b84d00, 10%);
+
+  box-shadow: 0 3px 15px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 3px 15px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 3px 15px 0px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0 3px 15px 0px rgba(0, 0, 0, 0.3);
+  -ms-box-shadow: 0 3px 15px 0px rgba(0, 0, 0, 0.3);
 }
 
 .button:hover i {
