@@ -27,6 +27,9 @@
   time: 6:30pm
   title: Astrid Schween Studio Recital
   location: Broadway Presbyterian Church, NY
+  details: |-
+    Mendelssohn: Cello Sonata in D Major
+    with Yoon Lee, piano
 - date: 2023-02-11
   time: 7:30pm ET
   title: "Haydn D Concerto with Arlington Philharmonic Orchestra"
@@ -37,6 +40,24 @@
     Franz Joseph Haydn – Cello Concerto No. 2 in D Major
     Johannes Brahms – Variations on a Theme of Haydn
     with Orlando Cela, Music Director
+- date: 2023-01-24
+  end_date: 2023-01-30
+  title: Cassatt String Quartet Residency
+  location: Odessa, Texas
+  link: https://www.cassattinthebasin.net/events
+  details: |-
+    <b>Cassatt String Quartet</b>
+    Muneko Otani and Jennifer Leshnower, violins
+    Rosemary Nelis, viola
+    Elena Ariza, cello
+    Substituting for Gwen Krosnick, cello.
+
+    with guest artist: Mark Morton, double bass
+
+    Mozart: String Quartet No.23 in F major, K.590
+    Dorothy Rudd Moore: “Modes” for String Quartet
+    Giovanni Bottesini: Gran Quintet in C minor for Strings
+    Concerts in Odessa, Midland, and Lubbock at Texas Tech University.
 - date: 2023-01-23
   time: 8pm
   title: Nina Bernat in Recital
@@ -69,6 +90,13 @@
     Ria Honda, Elli Choi, violins
     Isabella Bignasca, Sydney Whipple, violas
     Elena Ariza, cello
+- date: 2022-11-04
+  end_date: 2022-11-06
+  title: Masterclass with Yo-Yo Ma
+  location: Tanglewood, MA
+  details: |-
+    Invited to perform and speak about the Bach Cello Suites in a masterclass setting with Yo-Yo Ma.
+    Featured alongside fellow cellists, Leland Ko, Lindsey Sharpe, and Kamila Dotta.
 - date: 2022-10-28
   time: 7pm
   title: "VISION + Friends - A Benefit Concert for Ukraine"
