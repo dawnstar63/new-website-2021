@@ -1,0 +1,48 @@
+---
+layout: page
+title: Repertoire
+image: /img/Elena-Ariza-black-and-white-by-Anastasia-Chernyavsky.jpg
+image_class: top-75
+permalink: /repertoire/
+order: 3
+---
+<div class="toggle-wrapper">
+  <ul>
+    <li>
+      <input type="checkbox" checked>
+      <i></i>
+      <div class="toggle-content">
+      <h2>Concerti</h2>
+      {% capture my_include %}{% include_relative _data/concerti.md %}{% endcapture %}
+      {{ my_include | markdownify }}
+	  </div>
+    </li>
+    <li>
+      <input type="checkbox" checked>
+      <i></i>
+      <div class="toggle-content">
+      <h2>Sonatas / Works with Piano</h2>
+      {% capture my_include %}{% include_relative _data/with-piano.md %}{% endcapture %}
+      {{ my_include | markdownify }}
+	  </div>
+    </li>
+    <li>
+      <input type="checkbox" checked>
+      <i></i>
+      <div class="toggle-content">
+      <h2>Unaccompanied</h2>
+      {% capture my_include %}{% include_relative _data/unaccompanied.md %}{% endcapture %}
+      {{ my_include | markdownify }}
+	  </div>
+    </li>
+    <li>
+      <input type="checkbox" checked>
+      <i></i>
+      <div class="toggle-content">
+      <h2>Chamber Music</h2>
+      {% capture my_include %}{% include_relative _data/chamber_music.md %}{% endcapture %}
+      {{ my_include | markdownify }}
+	  </div>
+    </li>
+  </ul>
+</div>

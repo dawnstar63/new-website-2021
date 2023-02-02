@@ -1,0 +1,10 @@
+- Bach: Cello Suite No. 1, 2, 3, 4, 5, 6
+- Britten: Solo Cello Suite No. 1
+- Crumb: Solo Cello Sonata
+- Davis, Tyson Gholston: Tableau VIII
+- Hindemith: Sonata for Solo Cello, Op. 25 No. 3
+- Kodaly: Sonata for Solo Cello in B minor, Op. 8
+- Ligeti: Sonata for Solo Cello
+- Paganini: Caprices (arr. Silva) #5, 9, 13, 14, 20
+- Penderecki: Divertimento for Solo Cello
+- Sollima: Alone

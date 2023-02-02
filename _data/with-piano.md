@@ -1,0 +1,31 @@
+- Bach: Sonata for viola da gamba in D major BWV 1028
+- Barber: Cello Sonata Op. 6
+- Beethoven: Cello Sonata No. 1, 2, 3, 4, 5
+- Beethoven: 7 Variations on “Bei Männern”, WoO 46
+- Boccherini: Cello Sonata in A Major, G. 4
+- Boulanger: Three Pieces for Cello and Piano
+- Brahms: Cello Sonata No. 1 in E Minor, Op. 38
+- Brahms: Cello Sonata No. 2 in F Major, Op. 99
+- Bridge: Four Pieces for Cello and Piano
+- Carter: Cello Sonata
+- Cassadó: Requiebros
+- Chopin: Introduction and Polonaise Brillante in C Major, Op. 3
+- Chopin: Cello Sonata in G minor, Op. 65
+- Davidoff: At the Fountain Op. 20, No. 2
+- Debussy: Cello Sonata in D Minor
+- Franck: Sonata in A major for Violin and Piano
+- Francoeur: Sonata for Cello and Piano in E Major
+- Grieg: Cello Sonata in A minor, Op. 36
+- Janacek: Pohadka for Cello and Piano
+- Locatelli: Sonata for Cello and Piano
+- Mendelssohn: Cello Sonata No. 2 in D major, Op. 58
+- Mykola Lysenko: Elegy for Cello and Piano
+- Pärt: Fratres
+- Piazzolla: Le Grand Tango
+- Popper: Elfentanz, Op. 39
+- Prokofiev: Cello Sonata in C major, Op. 119
+- Rachmaninov: Cello Sonata, Op. 19
+- Schumann: Adagio and Allegro, Op. 70
+- Schumann: Fantasiestücke, Op. 73
+- Shostakovich: Sonata for Cello and Piano in D Minor, Op. 40
+- Schubert: Arpeggione Sonata in A Minor

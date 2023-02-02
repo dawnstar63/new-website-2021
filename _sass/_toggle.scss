@@ -1,0 +1,145 @@
+div.toggle-content {
+  diplay: flex;
+  margin: 20px;
+  // margin-top: 22px;
+  // margin-bottom: 20px;
+  font-size: 1.1rem;
+  & > ul {
+    border: none;
+    margin-bottom: 25px;
+  }
+  h2 {
+    font-size: 28px;
+
+    @include media-query($on-laptop) {
+        font-size: 24px;
+    }
+  }
+  h3 {
+    margin-bottom: 10px;
+  }
+}
+
+.toggle-wrapper h2 {
+  align-items: center;
+  color: $accent-color-orange;
+  text-transform: none;
+  font-weight: 300;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.toggle-wrapper p {
+  line-height: 1.45;
+  position: relative;
+  overflow: hidden;
+  max-height: 250px;
+  will-change: max-height;
+  contain: layout;
+  display: block;
+  opacity: 1;
+  transform: translate(0, 0);
+  // margin-top: 5px;
+  // margin-bottom: 20px !important;
+  padding: 0 40px 0 2 5px;
+  transition: .3s opacity, .6s max-height;
+  hyphens: auto;
+  z-index: 2;
+}
+
+.toggle-wrapper {
+  width: 100%;
+  display: flex;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.toggle-wrapper ul {
+  width: 100%;
+  text-align: left;
+}
+.transition, p, ul li i:before, ul li i:after {
+  transition: all 0.3s;
+}
+
+.toggle-wrapper .no-select, .toggle-wrapper h2 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
+.toggle-wrapper ul {
+  list-style: none;
+  perspective: 900;
+  padding: 0;
+  margin: 0;
+}
+.toggle-wrapper > ul > li {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  border: 1px $grey-color;
+  border-bottom: 0px;
+  border-style: solid none;
+  // box-shadow: 0 3px 10px -2px rgba(0,0,0,0.1);
+  -webkit-tap-highlight-color: transparent;
+}
+.toggle-wrapper ul li + li {
+  // padding-top: 15px;
+}
+.toggle-wrapper > ul > li:last-of-type {
+  padding-bottom: 0;
+  border-bottom: 1px solid $grey-color;
+  margin-bottom: 10px;
+}
+.toggle-wrapper > ul > li > i {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: 2.2rem;
+  right: 15px;
+}
+.toggle-wrapper > ul > li > i:before, ul li i:after {
+  content: "";
+  position: absolute;
+  background-color: $accent-color-orange;
+  width: 3px;
+  height: 9px;
+}
+.toggle-wrapper ul li i:before {
+  transform: translate(-2px, 0) rotate(45deg);
+}
+.toggle-wrapper ul li i:after {
+  transform: translate(2px, 0) rotate(-45deg);
+}
+.toggle-wrapper ul li input[type=checkbox] {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  touch-action: manipulation;
+}
+.toggle-wrapper ul li input[type=checkbox]:checked ~ div h2 {
+  color: $text-color;
+  margin-bottom: 0px;
+}
+.toggle-wrapper ul li input[type=checkbox]:checked ~ div :not(h2) {
+  /*margin-top: 0;*/
+  // line-height: 0;
+  max-height: 0;
+  transition: .3s;
+  opacity: 0;
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+  /*transform: translate(0, 50%);*/
+}
+.toggle-wrapper ul li input[type=checkbox]:checked ~ i:before {
+  transform: translate(2px, 0) rotate(45deg);
+}
+.toggle-wrapper ul li input[type=checkbox]:checked ~ i:after {
+  transform: translate(-2px, 0) rotate(-45deg);
+}

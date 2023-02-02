@@ -77,7 +77,7 @@
 
         font-size: calc(max(1.5vw, 20px));
         color: $grey-color-dark;
-        margin: 0px 10px;
+        margin: 0px 8px;
         transition: 0.3s ease;
         text-decoration: none;
 
@@ -445,7 +445,7 @@ table {
   width: calc(max(180px, 20%));
   height: 50px;
   // background-color: $grey-color-light;
-  background-color: #e67422;
+  background-color: $accent-color-orange;
   border-radius: 25px;
 
   font-family: $base-font-family;
