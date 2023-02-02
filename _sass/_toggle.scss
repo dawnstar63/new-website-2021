@@ -101,7 +101,7 @@ div.toggle-content {
   margin-top: 2.2rem;
   right: 15px;
 }
-.toggle-wrapper > ul > li > i:before, ul li i:after {
+.toggle-wrapper > ul > li > i:before, .toggle-wrapper > ul > li > i:after {
   content: "";
   position: absolute;
   background-color: $accent-color-orange;
