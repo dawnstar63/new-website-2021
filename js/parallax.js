@@ -100,6 +100,10 @@ function initializeParallax(clip) {
 		}
 	});
 	window.addEventListener('resize', onResize.bind(null, parallaxDetails));
+	document.getElementsByClassName('.toggle-wrapper p').addEventListener("transitionend",
+		onResize.bind(null, parallaxDetails));
+	document.getElementsByClassName('.toggle-wrapper p').addEventListener("webkitTransitionend",
+		onResize.bind(null, parallaxDetails));
 	onResize(parallaxDetails);
 	for (var i = parallax.length-1; i >=0; i--) {
 		parallax[i].parentNode.insertBefore(parallax[i], parallax[i].parentNode.firstChild);
