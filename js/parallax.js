@@ -101,6 +101,15 @@ function initializeParallax(clip) {
 	});
 	window.addEventListener('resize', onResize.bind(null, parallaxDetails));
 	onResize(parallaxDetails);
+	// create an Observer instance
+	const resizeObserver = new ResizeObserver(entries => {
+	  // console.log('Body height changed:', entries[0].target.clientHeight);
+	  onResize(parallaxDetails);
+	});
+
+	// start observing a DOM node
+	resizeObserver.observe(document.getElementsByClassName("parallax-container")[0]);
+
 	for (var i = parallax.length-1; i >=0; i--) {
 		parallax[i].parentNode.insertBefore(parallax[i], parallax[i].parentNode.firstChild);
 	}
