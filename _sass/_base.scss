@@ -8,6 +8,11 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+body.preload *{
+    animation-duration: 0s !important;
+    -webkit-animation-duration: 0s !important;
+    transition: all 0s !important;
+}
 
 
 /**
