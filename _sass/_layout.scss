@@ -54,7 +54,7 @@
 
     &:hover {
         text-decoration: none;
-        color: $grey-color;
+        color: $accent-brown;
     }
 }
 
@@ -87,18 +87,18 @@
         &.current {
             text-decoration: none;
             transition: none;
-            border-bottom: 4px solid $grey-color;
+            border-bottom: 4px solid $accent-brown;
             padding: 0px 0px 6px 0px;
-            color: $grey-color;
+            color: $accent-brown;
         }
 
 
         &:hover {
             transition: 0.3s ease;
             text-decoration: none;
-            border-bottom: 4px solid $grey-color;
+            border-bottom: 4px solid $accent-brown;
             padding: 0px 0px 6px 0px;
-            color: $grey-color;
+            color: $accent-brown;
         }
     }
 
@@ -205,7 +205,7 @@
             border-bottom: none;
         }
         &:hover {
-            color: $grey-color-light;
+            color: $accent-brown;
         }
     }
 
@@ -444,8 +444,7 @@ table {
   padding: 0 20px;
   width: calc(max(180px, 20%));
   height: 50px;
-  // background-color: $grey-color-light;
-  background-color: $accent-color-orange;
+  background-color: $accent-orange;
   border-radius: 25px;
 
   font-family: $base-font-family;
@@ -475,7 +474,7 @@ table {
 }
 
 .button:hover {
-  background-color: darken(#b84d00, 10%);
+  background-color: $accent-brown;
 
   box-shadow: 0 3px 15px 0px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 3px 15px 0px rgba(0, 0, 0, 0.3);
