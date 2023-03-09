@@ -7,7 +7,7 @@ permalink: /contact/
 order: 5
 ---
 <!-- https://colorlib.com/etc/cf/ContactFrom_v5/index.html -->
-<form class="contact100-form validate-form" method="POST" action="https://formspree.io/f/mayvnljz">
+<form class="contact100-form validate-form" id="contactForm" method="post" action="https://formspree.io/f/mayvnljz">
 
 	<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate="Enter Your First Name">
 		<span class="label-input100">First Name *</span>
@@ -20,7 +20,7 @@ order: 5
 
 	<div class="wrap-input100 validate-input bg1" data-validate = "Email (name@email.com)">
 		<span class="label-input100">Email *</span>
-		<input class="input100" type="email" name="_replyto" placeholder="Enter Your Email ">
+		<input class="input100" type="email" name="email" placeholder="Enter Your Email">
 	</div>
 
 	<div class="wrap-input100 validate-input bg1" data-validate="Invalid Phone Number">
@@ -35,7 +35,10 @@ order: 5
 	</div>
 
 	<div class="container-contact100-form-btn">
-		<button type="submit" class="contact100-form-btn">
+		<button type="submit" class="contact100-form-btn g-recaptcha"
+			data-sitekey="6LczrOgkAAAAADw8mcmXoPJti54jmmy0KppW2IAh"
+			data-callback='onSubmit'
+			data-action='submit'>
 			<span>
 				Submit
 				<!-- <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i> -->
