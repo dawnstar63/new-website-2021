@@ -75,7 +75,7 @@
 
     .page-link {
 
-        font-size: calc(max(1.5vw, 20px));
+        font-size: calc(max(1.2vw, 20px));
         color: $grey-color-dark;
         margin: 0px 8px;
         transition: 0.3s ease;
@@ -361,6 +361,7 @@ table {
 
 .post-header {
     margin-bottom: $spacing-unit;
+    margin-top: $spacing-unit / 4;
 }
 
 .post-title {

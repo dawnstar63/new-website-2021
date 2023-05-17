@@ -1,5 +1,6 @@
-- Bach: Cello Suite No. 1, 2, 3, 4, 5, 6
+- Bach: Cello Suites No. 1, 2, 3, 4, 5, 6
 - Britten: Solo Cello Suite No. 1
+- Cassado: Suite for Solo Cello
 - Crumb: Solo Cello Sonata
 - Davis, Tyson Gholston: Tableau VIII
 - Hindemith: Sonata for Solo Cello, Op. 25 No. 3
