@@ -29,6 +29,23 @@ order: 4
 
 <br>
 
+<h2 style="margin-top: 40px;">Press Kit</h2>
+<h3>
+<a href="/img/Elena-Ariza-press-kit.pdf" target="_blank" class="no-underline">
+	<div class="container-button" style="justify-content: left; padding-top: 0px;">
+		<button type="button" class="button">
+		<span>
+			2023 Press Kit
+			<!-- <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i> -->
+			<i class="m-l-7"> →</i>
+		</span>
+		</button>
+	</div>
+</a>
+</h3>
+
+<br>
+
 <h2 style="margin-top: 40px;">Photo Gallery</h2>
 
 {% include_relative image-gallery.html folder="/img/gallery" %}
