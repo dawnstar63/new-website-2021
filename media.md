@@ -31,8 +31,9 @@ order: 4
 
 <h2 style="margin-top: 40px;">Press Kit</h2>
 <h3>
-<a href="/img/Elena-Ariza-press-kit.pdf" target="_blank" class="no-underline">
-	<div class="container-button" style="justify-content: left; padding-top: 0px;">
+
+<div class="container-button" style="justify-content: left; padding-top: 0px;">
+	<a href="/img/Elena-Ariza-press-kit.pdf" target="_blank" class="no-underline">
 		<button type="button" class="button">
 		<span>
 			2023 Press Kit
@@ -40,8 +41,8 @@ order: 4
 			<i class="m-l-7"> →</i>
 		</span>
 		</button>
-	</div>
-</a>
+	</a>
+</div>
 </h3>
 
 <br>
