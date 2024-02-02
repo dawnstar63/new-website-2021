@@ -1,9 +1,82 @@
+- date: 2024-02-13
+  time: 5:30pm
+  title: Perlman Music Program Suncoast Recital
+  location: The Oval at the Bay, Sarasota
+  details: |-
+    Beethoven: String Quartet Op. 18 No. 6 in B-flat Major
+    Dvořák: String Quartet No. 12 in F Major Op. 96, "American"
+    Shaw: <i>Entr'acte</i>
+
+    Kate Arndt, Ria Honda, violins
+    Sarah Sung, viola
+    Elena Ariza, cello
+- date: 2024-02-12
+  time: 7pm
+  title: Perlman Music Program Suncoast Recital
+  location: Sarasota Art Museum
+  details: |-
+    Beethoven: String Quartet Op. 18 No. 6 in B-flat Major
+    Dvořák: String Quartet No. 12 in F Major Op. 96, "American"
+    Shaw: <i>Entr'acte</i>
+
+    Kate Arndt, Ria Honda, violins
+    Sarah Sung, viola
+    Elena Ariza, cello
 - date: 2024-02-11
   end_date: 2024-02-15
-  title: Perlman Music Program Suncoast
+  title: Perlman Music Program Suncoast Residency
   location: Sarasota, FL
   details: |-
-    More details upcoming!
+    Local school visits in Sarasota, private and public concerts.
+    Kate Arndt, Ria Honda, violins
+    Sarah Sung, viola
+    Elena Ariza, cello
+- date: 2024-01-18
+  title: Schoenberg <i>Verklärte Nacht</i> at ChamberFest
+  time: 8pm
+  location: Paul Hall, Juilliard
+  details: |-
+    Valerie Kim, Mai Matsumoto, violins
+    Molly Carr, Nic Perkins, violas
+    Elena Ariza, Ethan Cobb, cellos
+- date: 2024-01-16
+  title: Zwilich Piano Trio at ChamberFest
+  time: 7:30pm
+  location: Peter Jay Sharp Theater, Juilliard
+  details: |-
+    Leslie Ashworth, violin
+    Elena Ariza, cello
+    Baron Fenwick, piano
+- date: 2023-12-17
+  title: Brahms Piano Trio No. 3 in C Minor
+  time: 8pm
+  location: Morse Hall, Juilliard
+  details: |-
+    Leslie Ashworth, violin
+    Elena Ariza, cello
+    Baron Fenwick, piano
+- date: 2023-12-17
+  title: Mozart Piano Quartet in G Minor
+  time: 3:30pm
+  location: Paul Hall, Juilliard
+  details: |-
+    Matthew Hakkarainen, violin
+    Jeremy Klein, viola
+    Elena Ariza, cello
+    Umi Garrett, piano
+- date: 2023-12-07
+  title: Ellen Taaffe Zwilich Portrait Concert
+  time: 7:30pm
+  location: Juilliard
+  details: |-
+    Zwilich: Piano Trio
+      Leslie Ashworth, violin
+      Elena Ariza, cello
+      Baron Fenwick, piano
+
+    Zwilich: Lament for Cello and Piano
+      Elena Ariza, cello
+      Baron Fenwick, piano
 - date: 2023-07-02
   end_date: 2023-08-13
   title: Fellowship at Norfolk Chamber Music Festival
