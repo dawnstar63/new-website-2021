@@ -1,3 +1,33 @@
+- date: 2024-04-30
+  time: 8pm
+  location: Paul Hall, Juilliard
+  title: DMA Recital
+  details: |-
+    Noreen Cassidy-Polera, piano
+
+    Faure: Cello Sonata No. 1 in D Minor, Op. 109
+    Myaskovsky: Cello Sonata No. 1 in D Major, Op. 12
+    …and more to be announced!
+- date: 2024-04-21
+  time: 5:30pm
+  title: Taos Chamber Music Group Presents Taos School of Music on Tour
+  location: Harwood Museum of Art
+  details: |-
+    Tiffany Chang, Hannah Goldstick, violins
+    Nicolas Perkins, viola
+    Elena Ariza, Nina Lee, cellos
+- date: 2024-04-20
+  time: 5:30pm
+  title: Taos Chamber Music Group Presents Taos School of Music on Tour
+  location: Harwood Museum of Art
+  details: |-
+    Tiffany Chang, Hannah Goldstick, violins
+    Nicolas Perkins, viola
+    Elena Ariza, Nina Lee, cellos
+- date: 2024-04-04
+  time: 5:30pm
+  title: Aidan Gold DMA Recital
+  location: Morse Hall, Juilliard
 - date: 2024-02-13
   time: 5:30pm
   title: Perlman Music Program Suncoast Recital
@@ -37,7 +67,7 @@
   location: Paul Hall, Juilliard
   details: |-
     Valerie Kim, Mai Matsumoto, violins
-    Molly Carr, Nic Perkins, violas
+    Molly Carr, Nicolas Perkins, violas
     Elena Ariza, Ethan Cobb, cellos
 - date: 2024-01-16
   title: Zwilich Piano Trio at ChamberFest
