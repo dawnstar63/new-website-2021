@@ -5,6 +5,6 @@ branch:
   only:
   - gh-pages
   - /.*/
-  cache: bundler
+cache: bundler
 notifications:
   email: false
