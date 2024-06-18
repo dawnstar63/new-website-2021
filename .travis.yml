@@ -1,8 +1,10 @@
 deploy:
   provider: script
   script: bash scripts/build.sh
-  on:
-    branch: gh-pages
+branch: 
+  only:
+  - gh-pages
+  - /.*/
   cache: bundler
 notifications:
   email: false
