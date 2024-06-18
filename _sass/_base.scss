@@ -285,7 +285,7 @@ pre {
 
     .site-header & {
         position: relative;
-        padding-top: calc(#{$spacing-unit} / 3 + 5);
+        padding-top: calc(1.0 * #{$spacing-unit + 15} / 3);
         padding-bottom: calc(#{$spacing-unit} / 3);
     }
 
