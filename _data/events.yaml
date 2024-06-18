@@ -1,3 +1,36 @@
+- date: 2024-06-16
+  time: 5pm
+  location: Sunset Magazine Idea House
+  title: <i>Potpourri</i> at Sunkiss'd Mozart Summerfest
+  link: https://skmozart.com/festival/concerts
+  details: |-
+    Dohnányi String Sextet in B-flat
+      Tien-Hsin Cindy Wu and Yuri Cho, violins
+      David Samuel and Rubén Rengel, violas
+      Tanya Tomkins and Elena Ariza, cellos
+- date: 2024-06-14
+  time: 6pm
+  location: Monterey Museum of Art
+  title: <i>Viva!</i> at Sunkiss'd Mozart Summerfest
+  link: https://skmozart.com/festival/concerts
+  details: |-
+    Barrière: Sonata for Two Cellos in G Major, Allegro Prestissimo
+      Elena Ariza and Felix Fan, cellos
+
+    Mozart: String Quintet No. 1 in B-flat major, K. 174
+      Yuri Cho and Rubén Rengel, violins
+      Laura Liu and David Samuel, viola
+      Elena Ariza, cello
+- date: 2024-06-12
+  time: 6pm
+  location: Monterey Museum of Art
+  title: <i>Lone Cypress</i> at Sunkiss'd Mozart Summerfest
+  link: https://skmozart.com/festival/concerts
+  details: |-
+    Dvořák: String Quintet in E♭ major, Op. 97 "American"
+      Rubén Rengel and Yuri Cho, violins
+      Laura Liu and David Samuel, viola
+      Elena Ariza, cello
 - date: 2024-04-30
   time: 8pm
   location: Paul Hall, Juilliard
@@ -6,8 +39,8 @@
     Noreen Cassidy-Polera, piano
 
     Faure: Cello Sonata No. 1 in D Minor, Op. 109
+    Shaw: in manus tuas
     Myaskovsky: Cello Sonata No. 1 in D Major, Op. 12
-    …and more to be announced!
 - date: 2024-04-21
   time: 5:30pm
   title: Taos Chamber Music Group Presents Taos School of Music on Tour
