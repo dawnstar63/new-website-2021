@@ -2,6 +2,8 @@ language: ruby
 rvm:
   - 2.6.3
 
+before_install: gem install bundler --pre
+
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
 script: ./script/build.sh
