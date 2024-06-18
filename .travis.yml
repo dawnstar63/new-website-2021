@@ -3,3 +3,6 @@ deploy:
   script: bash scripts/build.sh
   on:
     branch: gh-pages
+  cache: bundler
+notifications:
+  email: false
