@@ -3,6 +3,7 @@
   title: Ravinia Steans Music Institute
   location: Highland Park, IL
   link: https://ravinia.org/Online/default.asp?BOparam::WScontent::loadArticle::permalink=Ravinia_SteansPianoStrings&BOparam::WScontent::loadArticle::context_id=
+  img: /img/ravinia.jpg
 - date: 2024-06-16
   time: 5pm
   location: Sunset Magazine Idea House
@@ -13,6 +14,7 @@
       Tien-Hsin Cindy Wu and Yuri Cho, violins
       David Samuel and Rubén Rengel, violas
       Tanya Tomkins and Elena Ariza, cellos
+  img: /img/skmozart3.avif
 - date: 2024-06-14
   time: 6pm
   location: Monterey Museum of Art
@@ -26,6 +28,7 @@
       Yuri Cho and Rubén Rengel, violins
       Laura Liu and David Samuel, viola
       Elena Ariza, cello
+  img: /img/skmozart2.avif
 - date: 2024-06-12
   time: 6pm
   location: Monterey Museum of Art
@@ -36,6 +39,7 @@
       Rubén Rengel and Yuri Cho, violins
       Laura Liu and David Samuel, viola
       Elena Ariza, cello
+  img: /img/skmozart1.avif
 - date: 2024-04-30
   time: 8pm
   location: Paul Hall, Juilliard
@@ -48,24 +52,27 @@
     Myaskovsky: Cello Sonata No. 1 in D Major, Op. 12
 - date: 2024-04-21
   time: 5:30pm
-  title: Taos Chamber Music Group Presents Taos School of Music on Tour
+  title: Taos Chamber Music Group Presents <i>Taos School of Music on Tour</i>
   location: Harwood Museum of Art
+  img: /img/taos-tour.jpg
   details: |-
     Tiffany Chang, Hannah Goldstick, violins
     Nicolas Perkins, viola
     Elena Ariza, Nina Lee, cellos
 - date: 2024-04-20
   time: 5:30pm
-  title: Taos Chamber Music Group Presents Taos School of Music on Tour
+  title: Taos Chamber Music Group Presents <i>Taos School of Music on Tour</i>
   location: Harwood Museum of Art
   details: |-
     Tiffany Chang, Hannah Goldstick, violins
     Nicolas Perkins, viola
     Elena Ariza, Nina Lee, cellos
+  img: /img/taos-tour.jpg
 - date: 2024-04-04
   time: 5:30pm
   title: Aidan Gold DMA Recital
   location: Morse Hall, Juilliard
+  img: img/morse-hall.jpg
 - date: 2024-02-13
   time: 5:30pm
   title: Perlman Music Program Suncoast Recital
@@ -78,6 +85,7 @@
     Kate Arndt, Ria Honda, violins
     Sarah Sung, viola
     Elena Ariza, cello
+  img: img/pmp-suncoast.png
 - date: 2024-02-12
   time: 7pm
   title: Perlman Music Program Suncoast Recital
@@ -90,10 +98,12 @@
     Kate Arndt, Ria Honda, violins
     Sarah Sung, viola
     Elena Ariza, cello
+  img: img/pmp-suncoast.png
 - date: 2024-01-18
   title: Schoenberg <i>Verklärte Nacht</i> at ChamberFest
   time: 8pm
   location: Paul Hall, Juilliard
+  img: img/paul-hall.jpg
   details: |-
     Valerie Kim, Mai Matsumoto, violins
     Molly Carr, Nicolas Perkins, violas
@@ -102,6 +112,7 @@
   title: Zwilich Piano Trio at ChamberFest
   time: 7:30pm
   location: Peter Jay Sharp Theater, Juilliard
+  img: img/peter-jay-sharp-theatre.jpg
   details: |-
     Leslie Ashworth, violin
     Elena Ariza, cello
@@ -110,6 +121,7 @@
   title: Brahms Piano Trio No. 3 in C Minor
   time: 8pm
   location: Morse Hall, Juilliard
+  img: img/morse-hall.jpg
   details: |-
     Leslie Ashworth, violin
     Elena Ariza, cello
@@ -118,6 +130,7 @@
   title: Mozart Piano Quartet in G Minor
   time: 3:30pm
   location: Paul Hall, Juilliard
+  img: img/paul-hall.jpg
   details: |-
     Matthew Hakkarainen, violin
     Jeremy Klein, viola
@@ -136,21 +149,25 @@
     Zwilich: Lament for Cello and Piano
       Elena Ariza, cello
       Baron Fenwick, piano
+  img: img/ellen-taaffe-zwilich.jpeg
 - date: 2023-07-02
   end_date: 2023-08-13
   title: Fellowship at Norfolk Chamber Music Festival
   location: Norfolk, CT
   link: https://music.yale.edu/norfolk
+  img: img/norfolk.jpg
 - date: 2023-05-26
   end_date: 2023-06-18
   title: Chamber Music Fellow at Perlman Music Program
   location: Shelter Island, NY
   link: https://www.perlmanmusicprogram.org/chamber-music-workshop
+  img: img/pmp-quartet.jpg
 - date: 2023-04-27
   time: 3pm
   title: Isabella Bignasca, Graduation Recital
   location: Paul Hall, Juilliard
   link: https://www.juilliard.edu/event/159141/isabella-bignasca-viola
+  img: img/paul-hall.jpg
 - date: 2023-03-30
   time: 8pm
   title: Elena Ariza, Graduation Recital
@@ -161,6 +178,7 @@
   title: Maine Mountain Chamber Music
   location: "Nordica Auditorium, Farmington, ME 04938, USA"
   link: https://www.artsfarmington.org/events-1/maine-mountain-chamber-music-7
+  img: img/maine-mountain.jpg
   details: |-
     Co-founders Yuri Funahashi (piano), Laurie Kennedy (viola), with guest artists Gianluca Pane (violin) and Elena Ariza (cello) in concert.
     Music of Beethoven, Nadia Boulanger, and Astor Piazzolla.
@@ -203,6 +221,7 @@
   time: 8pm
   title: Nina Bernat in Recital
   location: Morse Hall, Juilliard
+  img: img/morse-hall.jpg
   details: |-
     Libby Larsen: Up, Where the Air Gets Thin
     Delibes: Lakmé Duo des Fleurs (Flower Duet)
@@ -227,6 +246,7 @@
   time: 3:30pm
   title: "Brahms Viola Quintet No.2 in Concert"
   location: Morse Hall, Juilliard
+  img: img/morse-hall.jpg
   details: |-
     Ria Honda, Elli Choi, violins
     Isabella Bignasca, Sydney Whipple, violas
@@ -250,6 +270,7 @@
   time: 5pm
   title: "Masterclass with Li-Wei Qin"
   location: Juilliard School
+  img: img/li-wei-qin.jpg
   details: |-
     Haydn Cello Concerto No. 2 in D Major
 - date: 2022-10-06
@@ -258,6 +279,7 @@
   location: Clark Arts Center, Shelter Island, NY
   time: 4:30pm-5:30pm
   link: https://www.perlmanmusicprogram.org/calendar/alumni-retreat-recital
+  img: img/pmp-trio.jpg
   details: |-
     Haydn Op 76#4 "Sunrise"/I & Shostakovich #3/III
     Kate Arndt and Ria Honda, violins
@@ -274,6 +296,7 @@
   title: "Peace for Ukraine: Charity Cello Recital"
   location: Mountain View Japanese Seventh-day Adventist Church
   link: https://peace-for-ukraine.eventbrite.com/
+  img: "img/Peace for Ukraine poster 18x24in with QR code 2.JPEG"
   details: |-
     <b>Sheku Kanneh-Mason</b>: Melody
     🇺🇦 <b>Mykola Lysenko</b>: Elegy for Cello and Piano, Op. 39
@@ -305,6 +328,7 @@
   time: 7pm
   location: Jewish Center of the Hamptons
   link: https://www.perlmanmusicprogram.org/calendar/tutti-suonare-cg6jc
+  img: img/perlman-souvenir.jpg
   details: |-
     Itzhak Perlman and Masha Lakisova, violins
     Samuel Zacharia and Isabella Bignasca, violas
@@ -313,6 +337,7 @@
   title: Carter <i>Epigrams</i> in Concert
   time: 3:30pm
   location: Morse Hall, Juilliard School
+  img: img/morse-hall.jpg
   details: |-
     Carter <i>Epigrams</i> for Piano Trio
     William Copeland, violin
@@ -334,6 +359,7 @@
   location: Paul Hall, Juilliard School
   time: 8:00pm
   link: https://www.juilliard.edu/event/155296/composition-concert
+  img: img/paul-hall.jpg
   deatils: |-
     Jacob Beranek: String Quartet in One Movement
     Hava Polinsky and Emma Richman, violins
@@ -342,6 +368,7 @@
 - date: 2022-02-20
   title: Haydn Quartet Op. 76 No. 6
   location: Morse Hall, Juilliard School
+  img: img/morse-hall.jpg
   details: |-
     Phoebe Gardner and Hannah Song, violins
     Isabella Bignasca, viola
@@ -355,11 +382,13 @@
 - date: 2022-02-15
   title: Masterclass with Frans Helmerson
   location: Juilliard 309
+  img: img/frans-helmerson.jpg
   details: |-
     Schubert: Arpeggione Sonata in A Minor
 - date: 2022-01-11
   title: <s>ChamberFest 2021 Concert</s> CANCELLED
   location: Paul Hall, Juilliard
+  img: img/paul-hall.jpg
   link: https://www.juilliard.edu/event/154281/chamberfest
   details: |-
     Frank Bridge String Sextet in E-flat Major, H. 107
@@ -385,6 +414,7 @@
   title: Cello Competition Finals 2021
   time: 4pm ~ 7pm
   location: Paul Hall, Juilliard School
+  img: img/paul-hall.jpg
   link: https://www.juilliard.edu/event/153716/cello-competition-finals
   details: |-
     Haydn D Major Cello Concerto
@@ -405,6 +435,7 @@
 - date: 2021-08-23
   title: Recital with Misha Galant
   location: Grace Baptist Church in Elko, Nevada
+  img: img/misha-elena.JPG
   details: |-
     Program:
     Mendelssohn: Cello Sonata No.2 in D Major, Op.58
@@ -413,6 +444,7 @@
 - date: 2021-08-14
   title: Recital with Misha Galant
   location_nolink: private home in Ogden, Utah
+  img: img/misha-elena.JPG
   details: |-
     Program:
     Mendelssohn: Cello Sonata No.2 in D Major, Op.58
@@ -443,6 +475,7 @@
 - date: 2021-04-18
   title: <i>Inspired by Menlo</i> – Music@Menlo Benefit
   link: https://musicatmenlo.org/ben/?evt=1569
+  img: img/m@m-benefit.jpg
   details: |-
     Program:
     Schubert Quartettsatz in C Minor
@@ -455,6 +488,7 @@
   title: <i>Zoom through the Ages</i> – Recital with Misha Galant
   location_nolink: Zoom
   link: https://www.eventbrite.com/e/zoom-through-the-ages-tickets-145350056933?aff=erelexpmlt
+  img: img/zoom-through-ages.JPG
   details: |-
     Bach Sonata for Viola da Gamba and Harpsichord No. 2 in D major
     Beethoven 7 Variations on 'Bei Männern, welche Liebe fühlen'

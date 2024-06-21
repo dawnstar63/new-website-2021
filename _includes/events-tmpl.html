@@ -1,8 +1,9 @@
 <table class="events-table">
     <tbody>
 
-        {% assign how_many = include.num_events_show 
-            | default: site.data.events.size | plus: 0 %}
+        {% assign image_files = site.static_files | where: "gallery", true %}
+
+        {% assign how_many = include.num_events_show | default: site.data.events.size | plus: 0 %}
 
         <!-- 1st reverse makes it most recent first, to older -->
         {% assign events = site.data.events | sort: 'date' | reverse %}
@@ -11,7 +12,7 @@
         {% if include.upcoming %}
             {% assign events = events | reverse %}
         {% else %}
-            {% assign date-hidden = "date-hidden" %}
+            {% assign date_past = "date-past" %}
         {% endif %}
 
     	{% for event in events %}
@@ -35,18 +36,27 @@
     		{% break %}
     	{% endif %}
     	{% assign how_many = how_many | minus: 1 %}
+        {% assign mod = image_files.size | plus: 1 %}
+
+        {% assign img_ind = how_many | times: mod | modulo: image_files.size %}
 
         <tr class="event-row" valign="top">
 
             <!-- LEFT-SIDE DATE ICON -->
-            <td class="date-column">
-                <div class="date-icon">
-                    <div class="date-icon-inner">
-                        <div class="day-number icon-day-font">
-                        	{{- event.date | date: "%d" | to_integer -}}
-                        </div>
-                        <div class="month icon-month-font">
-                        	{{- event.date | date: "%b" -}}
+            <td class="date-column thumbnail-container">
+                <div class="event-thumbnail">
+                    <a href="{{ event.link }}" target="_blank">
+                        <img src="{{ event.img | default: image_files[img_ind].path }}">
+                    </a>
+
+                    <div class="date-icon {{ date_past }}">
+                        <div class="date-icon-inner">
+                            <div class="day-number icon-day-font">
+                                {{- event.date | date: "%d" | to_integer -}}
+                            </div>
+                            <div class="month icon-month-font">
+                                {{- event.date | date: "%b" -}}
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -56,7 +66,7 @@
             <td class="margin-column"><div class="date-icon-margin"></div></td>
 
             <!-- EVENT DETAILS -->
-            <td><table class="event-details text-font">
+            <td class="event-details-column"><table class="event-details text-font">
                     
                 <!-- EVENT TITLE -->
                 {% if event.link %}

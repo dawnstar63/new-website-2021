@@ -19,12 +19,15 @@ markdown: kramdown
 plugins:
   - jekyll-seo-tag
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
       image: "/img/elena-ariza-leaning-against-wall-edited-min.jpg"
+  - scope:
+      path: "img/gallery"
+    values:
+      gallery: true
 
 exclude:
   - Gemfile
