@@ -22,20 +22,32 @@
   img: /img/michele-wong-recital.jpg
   details: |-
     Beethoven: "Bei Männern" Variations
-    Elena Ariza, cello
     Michele Wong, piano
+    Elena Ariza, cello
 - date: 2024-10-30
   title: Sonatenabend
   link: https://www.juilliard.edu/event/170461/sonatenabend
   time: 6pm ET
   img: /img/pmp-quartet.jpg
   location: Paul Hall, Juilliard
+  details: |-
+    Shostakovich: Cello Sonata
+    Michał Skowronek, piano
+    Elena Ariza, cello
 - date: 2024-10-24
   title: "Momenta Festival IX: Concert 4"
   link: https://www.as-coa.org/events/momenta-festival-ix-concert-4
   location: Americas Society, 680 Park Avenue, New York
   img: /img/momenta-quartet.jpg
   time: 7pm ET
+  details: |-
+    Julián Carrillo (1875-1965): Dos Bosquejos
+    Charles Ives (1874-1954): The Innate
+    Ives: String Quartet No. 1
+    ~ Intermission ~
+    Stephanie Griffin: The Overgrown Cathedral (WP)
+    Ives: "Hymn," from A Set of 3 Short Pieces
+    Claude Vivier (1948-1983): Zipangu
 - date: 2024-10-22
   title: "Celebration of <i>Juilliard School Library Music Manuscripts: By and for Performers</i>"
   time: 6pm ET
@@ -54,16 +66,27 @@
   location: Paul Hall, Juilliard
   link: https://www.juilliard.edu/event/172331/elena-ariza-cello
   details: |-
-    KRZYSZTOF PENDERECKI Divertimento
-    REENA ESMAIL Perhaps
-    FRANCIS POULENC Cello Sonata, FP 143
-    LUDWIG VAN BEETHOVEN 7 Variations on 'Bei Männern, welche Liebe fühlen', WoO 46
-    CÉSAR FRANCK (arr. Jules Delsart) Sonata for Violin and Piano in A Major
+    Krzysztof Penderecki: Divertimento
+    Reena Esmail: Perhaps
+    Francis Poulenc: Cello Sonata, Fp 143
+    Ludwig Van Beethoven: 7 Variations On 'bei Männern, Welche Liebe Fühlen', Woo 46
+    César Franck (Arr. Jules Delsart): Sonata For Violin And Piano In A Major
 - date: 2024-09-22
   title: Collomore Concert Series with Baron Fenwick
   location: Chester, CT
   link: https://collomoreconcerts.org/baron-fenwick-piano-elena-ariza-cello-classical/
   img: /img/collomore_baron_elena.jpeg
+  details: |-
+    Domenico Gallo (1730–c.1768), arr. Igor Stravinsky and Gregor Piatigorsky: Suite Italienne, Introduzione
+    Anne Qian Wang (b.1994): “The Cat That Lived a Million Times”
+    Francis Poulenc (1899–1963): Cello Sonata, FP 143
+    Gabriel Fauré (1845–1924): Après un rêve (After a dream)
+    ~ INTERMISSION ~
+    J.S. Bach (1685–1750): Art of the Fugue, Contrapunctus I, BWV 1080
+    J.S. Bach: Cello Suite #6 in D Major, II. Allemande, BWV 1012
+    J.S. Bach: Sonata for Viola da Gamba and Cembalo in D Major, BWV 1028
+    IV. Allegro
+    Felix Mendelssohn (1809–1847): Cello Sonata No. 2 in D Major, Op. 58
 - date: 2024-06-22
   end_date: 2024-07-25
   title: Ravinia Steans Music Institute
