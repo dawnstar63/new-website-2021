@@ -15,6 +15,25 @@
   img: /img/schoenberg.jpg
   details: |-
     Schoenberg: "Pierrot Lunaire", Op. 21
+- date: 2024-11-24
+  time: 12:30pm ET
+  title: Dvořák Piano Quartet No. 2 in E♭ major, Op. 87
+  img: /img/morse-hall.jpg
+  link: https://www.juilliard.edu/event/171406/chamber-music-recital
+  details: |-
+    Eric Chen, violin
+    Jeremy Klein, viola
+    Elena Ariza, cello
+    Lohan Park, piano
+- date: 2024-11-17
+  time: 3pm ET
+  title: Schumann Piano Trio No. 2 in F major, Op. 80
+  img: /img/morse-hall.jpg
+  link: https://www.juilliard.edu/event/171391/chamber-music-recital
+  details: |-
+    Clara Neubauer, violin
+    Elena Ariza, cello
+    Amir Ron, piano
 - date: 2024-11-09
   title: Michele Wong Recital
   link: https://www.juilliard.edu/event/173001/michele-wong-collaborative-piano
@@ -28,7 +47,7 @@
   title: Sonatenabend
   link: https://www.juilliard.edu/event/170461/sonatenabend
   time: 6pm ET
-  img: /img/pmp-quartet.jpg
+  img: /img/paul-hall.jpg
   location: Paul Hall, Juilliard
   details: |-
     Shostakovich: Cello Sonata
