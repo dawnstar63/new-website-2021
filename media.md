@@ -29,14 +29,14 @@ order: 4
 
 <br>
 
-<h2 style="margin-top: 40px;">Press Kit</h2>
+<h2 style="margin-top: 40px;">Artistic Dossier</h2>
 <h3>
 
 <div class="container-button" style="justify-content: left; padding-top: 0px;">
-	<a href="/img/Elena-Ariza-press-kit.pdf" target="_blank" class="no-underline">
+	<a href="/img/2024-11-14-dossier-press-kit-with-recitals.pdf" target="_blank" class="no-underline">
 		<button type="button" class="button">
 		<span>
-			Press Kit
+			View Here
 			<!-- <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i> -->
 			<i class="m-l-7"> →</i>
 		</span>
