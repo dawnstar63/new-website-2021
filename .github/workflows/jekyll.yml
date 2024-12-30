@@ -11,9 +11,6 @@ on:
   schedule:
     - cron: "0 0 * * *" # 1:30 PM (UTC)/8:30 AM (EST)
 
-  schedule:
-    - cron: "0 0 * * *" # 1:30 PM (UTC)/8:30 AM (EST)
-
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
