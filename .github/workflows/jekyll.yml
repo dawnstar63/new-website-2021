@@ -4,10 +4,13 @@
 # documentation.
 
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll site to Pages
+name: Deploy Jekyll site to Pages nightly
 
 on:
   # build nightly at midnight
+  schedule:
+    - cron: "0 0 * * *" # 1:30 PM (UTC)/8:30 AM (EST)
+
   schedule:
     - cron: "0 0 * * *" # 1:30 PM (UTC)/8:30 AM (EST)
 
