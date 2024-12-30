@@ -7,7 +7,6 @@
 name: Deploy Jekyll site to Pages nightly
 
 on:
-  # build nightly at midnight
   schedule:
     - cron: "0 0 * * *" # 1:30 PM (UTC)/8:30 AM (EST)
 
