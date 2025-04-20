@@ -1,3 +1,73 @@
+- date: 2025-07-19
+  end_date: 2025-08-17
+  title: Marlboro Music Festival
+  link: https://www.marlboromusic.org/concerts/
+  img: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Marlboro_Music_Festival_-_Marlboro%2C_Vermont_-_DSC06943.jpg/960px-Marlboro_Music_Festival_-_Marlboro%2C_Vermont_-_DSC06943.jpg
+- date: 2025-06-11
+  end_date: 2025-06-15
+  title: Sunkiss'd Mozart Summerfest 2025
+  link: https://skmozart.com/festival
+  img: https://framerusercontent.com/images/B9RlAoiQ1gl5dioAfyrOa218E.jpeg?scale-down-to=1024
+- date: 2025-04-30
+  title: "Juilliard Celebrates Earth Month | Voice of the Whale"
+  time: 5:30pm
+  link: https://www.juilliard.edu/event/177036/juilliard-celebrates-earth-month-voice-whale
+  img: /img/juilliard-interdisciplinary.jpg
+  details: |-
+    In celebration of Earth Month, Juilliard presents Voice of the Whale, a collaboration among actors, musicians, and playwrights from Juilliard’s drama and music divisions. This special performance will feature George Crumb’s Vox Balaenae (Voice of the Whale) for three masked players and short works created for this occasion.
+    This event is part of Juilliard Celebrates Earth Month, a series of performances and activities that honor our collective home.
+- date: 2025-04-26
+  title: JJ Silvey Recital
+  time: 8:30pm
+  location: Morse Hall, Juilliard
+  img: /img/morse-hall.jpg
+  link: https://www.juilliard.edu/event/174151/jj-silvey-oboe
+  details: |-
+    Britten: Oboe Fantasy, Op. 2
+    JJ Silvey, oboe
+    Pierce Wang, violin
+    Jeremy Klein, viola
+    Elena Ariza, cello
+- date: 2025-04-25
+  title: Michał Skowronek Recital
+  time: 3pm
+  img: /img/michal.jpg
+  location: Paul Hall, Juilliard
+  link: https://www.juilliard.edu/event/173651/michal-skowronek-collaborative-piano
+  details: |-
+    Debussy: Cello Sonata
+    Elena Ariza, cello
+    Michał Skowronek, piano
+- date: 2025-04-06
+  title: Brahms C Minor Piano Trio
+  time: 3pm
+  location: Morse Hall, Juilliard
+  link: https://www.juilliard.edu/event/171516/chamber-music-recital
+  img: /img/morse-hall.jpg
+  details: |-
+    Clara Neubauer, violin
+    Elena Ariza, cello
+    Amir Ron, piano
+- date: 2025-03-31
+  end_date: 2025-04-05
+  title: "Project: Music Heals Us"
+  location: Pitchess Detention Center
+  link: https://www.pressdemocrat.com/article/news/sonoma-county-jail-concert-juilliard/
+  img: /img/pmhu-mftf-christopher-chung-the-press-democrat.jpeg
+  details: |-
+    Teaching and performing residency at the Pitchess Detention Center in CA.
+- date: 2025-03-23
+  title: "Musicians Club of New York Composers: World Premieres"
+  time: 3:30pm
+  link: https://www.musiciansclubny.org/concerts
+  location: Scandinavia House
+  img: /img/scandinavia-house.jpg
+  details: |-
+    Performance with members of the Cassatt Quartet and Steven Beck.
+- date: 2025-03-01
+  title: The William C. Byrd Young Artist Competition
+  location: Flint, MI
+  link: https://www.byrdartists.com/index.html
 - date: 2024-12-28
   title: Trio Recital with Sarah, Mai, and Elena
   time: 7pm PT
@@ -5,7 +75,7 @@
   img: /img/holiday-concert-with-sarah-mai-and-elena.png
   location: Conservatory of the Arts at Valley Christian School, San Jose
   details: |-
-    Program includes works by Amy Beach, Maurice Ravel, Robert Schumann, Caroline Shaw, and more!
+    Program includes works by Amy Beach, Maurice Ravel, Robert Schumann, and Caroline Shaw!
     Mai Matsumoto, violin
     Elena Ariza, cello
     Sarah Tuan, piano
