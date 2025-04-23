@@ -184,13 +184,9 @@ table.events-table {
 }
 
 .timezone-note {
+    display: inline-block;
+    margin-left: 10px;
     font-size: 0.9em;
     color: #666;
-    margin-top: 3px;
     font-style: italic;
-}
-
-.event-detail.when.time td {
-    position: relative;
-    padding-bottom: 8px;
 }
