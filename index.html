@@ -3,6 +3,7 @@ layout: default
 ---
 <div class="parallax header lazy-image top-25 left-80" data-large="/img/elena-ariza-leaning-against-wall-edited-long-16-compressed-min.jpg" parallax="0.8">
 	<img src="//images.weserv.nl/?url=elenaariza.com/img/elena-ariza-leaning-against-wall-edited-long-16-compressed-min.jpg&w=25&fit=cover&output=png" class="img-small loaded">
+	<!-- <img src="/img/elena-ariza-leaning-against-wall-edited-long-16-compressed-min.jpg"> -->
 </div>
 <div class="scene header"></div>
 
@@ -52,7 +53,9 @@ element before it and the next element with the "parallax-cover" attribute. -->
 			<h1 class="post-title">Up Next</h1>
 		</header>
 		<div class="concerts-preview">
-			{% include events-tmpl.html upcoming=true num_events_show="3" %}
+			<table class="events-table">
+			    <tbody id="upcoming-preview"></tbody>
+			</table>
 		</div>
 		<br>
 		<a href="/events" class="no-underline">
@@ -76,3 +79,5 @@ will be calculated such that the image slides until the end of the scrollable co
 	<!-- <img src="//images.weserv.nl/?url=elenaariza.com/img/elena-ariza-diagonal-cello-black-chair.jpeg&w=25&fit=cover&output=png" class="img-small loaded"> -->
 </div>
 <div class="scene"></div>
+
+<script src="/js/events-new.js"></script>

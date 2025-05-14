@@ -1,6 +1,6 @@
 // /js/events.js
 document.addEventListener("DOMContentLoaded", () => {
-  const GOOGLE_CALENDAR_ID = "f9fc4d2a996f024cbadfc1b211e756ca7f269ecbb671886533f6943cc99158e4@group.calendar.google.com";
+  const GOOGLE_CALENDAR_ID = "a7ad7aa1d1b94d6a1db67fb73916f55c4e8a1b603ddba7a6babe94a334606b0a@group.calendar.google.com";
   const API_KEY = "AIzaSyBimHbgE5Pab3tG2GdiecyMSa6fd_i1I-E";
 
   const GALLERY_IMAGES = [
@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const spinner      = document.getElementById("loading-spinner");
   const upcomingBody = document.getElementById("upcoming-events");
   const pastBody     = document.getElementById("past-events");
+  const previewBody  = document.getElementById("upcoming-preview");
 
   // simple djb2 string → integer hash
   function hashString(str) {
@@ -51,12 +52,23 @@ document.addEventListener("DOMContentLoaded", () => {
       : inner;
   }
 
+  function parseLocalDate(dateStr) {
+    const [year, month, day] = dateStr.split('-').map(Number);
+    return new Date(year, month - 1, day); // Month is 0-indexed
+  }
+
+  function subtractOneDay(dateStr) {
+    const d = parseLocalDate(dateStr);
+    d.setDate(d.getDate() - 1);
+    return d;
+  }
+
   function makeRow(ev, isPast) {
     const rawDesc = ev.description || "";
 
     // pull out custom tokens
-    const mImg     = rawDesc.match(/(?:^|\n)img:\s*(\S+)/i);
-    const mLink    = rawDesc.match(/(?:^|\n)link:\s*(\S+)/i);
+    const mImg     = rawDesc.match(/img:\s*(?:<[^>]*>)?([^<\n]+)(?:<\/[^>\n]*>)?(?:\s*(?:\n|$))/i);
+    const mLink    = rawDesc.match(/link:\s*(?:<[^>]*>)?([^<\n]+)(?:<\/[^>\n]*>)?(?:\s*(?:\n|$))/i);
     const mDetails = rawDesc.match(/(?:^|\n)details:\s*([\s\S]+)/i);
 
     // stable gallery index from event.id
@@ -77,15 +89,20 @@ document.addEventListener("DOMContentLoaded", () => {
     // parse start/end
     const start = ev.start.dateTime
       ? new Date(ev.start.dateTime)
-      : new Date(ev.start.date);
+      : parseLocalDate(ev.start.date);
     const end = ev.end?.dateTime
       ? new Date(ev.end.dateTime)
-      : (ev.end?.date ? new Date(ev.end.date) : null);
+      : (ev.end?.date ? subtractOneDay(ev.end.date) : null);
 
     // date icon components
     const dayNum   = start.getDate().toString().padStart(2, "0");
     const monthAbv = start.toLocaleString("en-US", { month: "short" });
     const pastCls  = isPast ? "date-past" : "";
+    const multiDay = end && end.toDateString() !== start.toDateString();
+    const endDayNum = multiDay ? end.getDate().toString().padStart(2, "0") : "";
+    const endMonthAbv = multiDay
+      ? end.toLocaleString("en-US", { month: "short" })
+      : "";
 
     // build thumbnail HTML
     const thumbHTML = makeLazyImage(imgUrl, linkUrl);
@@ -97,7 +114,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // date cell
     let dateCell;
-    if (end && end.toDateString() !== start.toDateString()) {
+    if (multiDay) {
       dateCell = `${formatDate(start)} ~ ${formatDate(end)}`;
     } else {
       dateCell = formatDate(start);
@@ -163,6 +180,9 @@ document.addEventListener("DOMContentLoaded", () => {
               <div class="date-icon-inner">
                 <div class="day-number icon-day-font">${parseInt(dayNum)}</div>
                 <div class="month icon-month-font">${monthAbv}</div>
+                ${multiDay
+                  ? `<div class="end-date icon-month-font">to ${endMonthAbv} ${parseInt(endDayNum)}</div>`
+                  : ""}
               </div>
             </div>
           </div>
@@ -188,8 +208,55 @@ document.addEventListener("DOMContentLoaded", () => {
       </tr>`;
   }
 
+  function getSkeletonRows(count) {
+    let rows = "";
+    for (let i = 0; i < count; i++) {
+      rows += `
+        <tr class="event-row skeleton-row" valign="top">
+          <td class="date-column thumbnail-container">
+            <div class="event-thumbnail skeleton-thumbnail"></div>
+          </td>
+          <td class="margin-column"><div class="date-icon-margin"></div></td>
+          <td class="event-details-column">
+            <table class="event-details text-font"><tbody>
+              <tr>
+                <td class="event-title" colspan="2">
+                  <div class="skeleton-line" style="width: 70%;"></div>
+                </td>
+              </tr>
+              <tr class="event-detail when date">
+                <td id="date-icon" class="material-icons md-18">event</td>
+                <td><div class="skeleton-line" style="width: 50%;"></div></td>
+              </tr>
+              <tr class="event-detail when time">
+                <td id="clock-icon" class="material-icons md-18">schedule</td>
+                <td><div class="skeleton-line" style="width: 30%;"></div></td>
+              </tr>
+              <tr class="event-detail where location">
+                <td id="location-icon" class="material-icons md-18">place</td>
+                <td><div class="skeleton-line" style="width: 60%;"></div></td>
+              </tr>
+            </tbody></table>
+          </td>
+        </tr>`;
+    }
+    return rows;
+  }
+
   async function loadEvents() {
-    spinner.style.display = "";
+    if (!upcomingBody &&
+        !pastBody &&
+        !previewBody) {
+      // No relevant containers — exit early
+      console.log("No events table containers found on this page.");
+      return;
+    }
+
+    if (upcomingBody) upcomingBody.innerHTML = getSkeletonRows(3);
+    if (pastBody)     pastBody    .innerHTML = getSkeletonRows(3);
+    if (previewBody)  previewBody .innerHTML = getSkeletonRows(3);
+
+    if (spinner) spinner.style.display = "";
     const twoYearsAgo = new Date();
     twoYearsAgo.setFullYear(twoYearsAgo.getFullYear() - 2);
 
@@ -220,34 +287,31 @@ document.addEventListener("DOMContentLoaded", () => {
       past    .sort((a,b) => new Date(b.start.dateTime||b.start.date)
                                - new Date(a.start.dateTime||a.start.date));
 
-      upcomingBody.innerHTML = upcoming
+      // grabs 3 upcoming events
+      const preview = upcoming.slice(0, 3);
+
+      if (upcomingBody) {
+        upcomingBody.innerHTML = upcoming
         .map(ev => makeRow(ev, false))
         .join("") || `<tr><td colspan="3">No upcoming events.</td></tr>`;
+      }
 
-      pastBody.innerHTML = past
+      if (pastBody) {
+        pastBody.innerHTML = past
         .map(ev => makeRow(ev, true))
         .join("") || `<tr><td colspan="3">No recent events.</td></tr>`;
+      }
 
-      // document.querySelectorAll('.event-detail.when.time').forEach(row => {
-      //   const iso = row.getAttribute('data-original-time');
-      //   const eventTime = new Date(iso);
-      //   if (!isNaN(eventTime)) {
-      //     const localTimeString = eventTime.toLocaleTimeString('en-US', {
-      //       hour: 'numeric',
-      //       minute: '2-digit',
-      //       timeZoneName: 'short'
-      //     });
-      //     // append a small note under the existing time cell
-      //     const td = row.querySelector('td:last-child');
-      //     td.insertAdjacentHTML('beforeend',
-      //       `<div class="timezone-note">(Your time: ${localTimeString})</div>`);
-      //   }
-      // });
+      if (previewBody) {
+        previewBody.innerHTML = preview
+        .map(ev => makeRow(ev, false))
+        .join("") || `<tr><td colspan="3">No upcoming events.</td></tr>`;
+      }
     } catch (err) {
       console.error(err);
-      spinner.innerHTML = "<p>Failed to load events.</p>";
+      if (spinner) spinner.innerHTML = "<p>Failed to load events.</p>";
     } finally {
-      spinner.style.display = "none";
+      if (spinner) spinner.style.display = "none";
     }
   }
 
