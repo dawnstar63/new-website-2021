@@ -1,58 +1,100 @@
 ### Piano Trios
-- Brahms: Piano Trio in B Major, Op. 8 No.1
-- Beethoven: Piano Trio in E-flat Major, Op. 1 No. 1
-- Beethoven: Piano Trio in B-flat Major, Op. 97 "Archduke"
-- Beethoven: Piano Trio in E-flat major, Op.70 No.2
-- Debussy: Piano Trio in G Major
-- Dvorak: Piano Trio Op. 90 “Dumky”
-- Mendelssohn: Piano Trio No. 1 in D Minor Op. 49
-- Mendelssohn: Piano Trio No. 2 in C Minor Op. 66
-- Mozart: Piano Trio, KV 542
-- Ravel: Piano Trio (mvt. I)
-- Schumann, Clara: Piano Trio in G Minor, Op. 17
-- Saint-Saens: Piano Trio No. 2 in E Minor, Op. 92
-- Schoenfield: Café Music (mvt. I)
-- Schubert: Piano Trio No. 1 in B-flat Major, Op. 99
-- Schubert: Piano Trio No. 2 in E-flat Major, Op. 100
-- Shostakovich: Piano Trio No. 2 in E Minor, Op. 67
-- Smetana: Piano Trio in G Minor
-- Turina: Piano Trio No. 2
+-	Arensky: Piano Trio in D Minor, Op. 32
+-	Brahms: Piano Trio No. 1 in B Major, Op. 8 No. 1
+-	Brahms: Piano Trio No. 3 in C Minor, Op. 101
+-	Brahms: Clarinet Trio in A minor, Op. 114
+-	Beethoven: Piano Trio Op. 1 No. 1 in E-flat Major
+-	Beethoven: Piano Trio Op. 1 No. 3 in C Minor
+-	Beethoven: Piano Trio Op. 11 in B-flat Major
+-	Beethoven: Piano Trio Op. 70 Nr. 1 in D Major, “Ghost”
+-	Beethoven: Piano Trio Op. 70 No. 2 in E-flat Major
+-	Beethoven: Piano Trio Op. 97 in B-flat Major, "Archduke"
+-	Carter: Epigrams for Piano Trio
+-	Clarke: Piano Trio
+-	Debussy: Piano Trio in G Major
+-	Dvořák: Piano Trio Op. 90 “Dumky”
+-	Haydn: Piano Trio Hob:XV/7 in D Major
+-	Haydn: Piano Trio Hob:XV/25 in G Major “Gypsy”
+-	Mendelssohn: Piano Trio No. 1, Op. 49 in D Minor
+-	Mendelssohn: Piano Trio No. 2, Op. 66 in C Minor
+-	Mozart: Piano Trio KV 542 in E Major
+-	Ravel: Piano Trio
+-	Saint-Saëns: Piano Trio No. 2, Op. 92 in E Minor
+-	Schoenfield: Café Music (mvt. I)
+-	Schubert: Piano Trio No. 2, Op. 100 in E-flat
+-	Schumann, Clara: Piano Trio Op. 17 in G Minor
+-	Shostakovich: Piano Trio No. 2, Op. 67 in E Minor
+-	Smetana: Piano Trio in G Minor
+-	Turina: Piano Trio No. 2 in B Minor
+-	Weinberg: Piano Trio, Op. 24 (mvt. III)
+-	Zwilich, Ellen Taaffe: Piano Trio
 
 ### String Quartets
--	Bartok: String Quartet No. 5
--	Beethoven: String Quartet Op. 18 No. 4 and No. 6
--	Beethoven: String Quartet No. 11 in F Minor, Op. 95 "Serioso"
--	Beethoven: String Quartet No. 14 in C♯ minor, Op. 131
--	Debussy: String Quartet in G Minor, Op. 10
+-	Barber: String Quartet Op. 11 in B Minor
+-	Bartók: String Quartet No. 4
+-	Bartók: String Quartet No. 5
+-	Beethoven: String Quartet Op. 18 No. 1 in F Major
+-	Beethoven: String Quartet Op. 18 No. 4 in C Minor
+-	Beethoven: String Quartet Op. 18 No. 5 in A Major
+-	Beethoven: String Quartet Op. 18 No. 6 in B-flat Major
+-	Beethoven: String Quartet Op. 95 in F Minor "Serioso"
+-	Beethoven: String Quartet Op. 131 in C♯ minor
+-	Beethoven: String Quartet Op. 132 in A minor
+-	Beranek, Jacob: String Quartet in One Movement
+-	Debussy: String Quartet Op. 10 in G Minor
+-	Dvořák: String Quartet No. 12 in F Major Op. 96, "American"
+-	Haydn: String Quartet Op. 76, No. 4 in B-Flat Major "Sunrise"
+-	Haydn: String Quartet Op. 76 No. 6 in E-flat Major
 -	Haydn: String Quartet Op. 77 No. 1 in G Major
--	Janáček: String Quartet No. 2 'Intimate Letters'
--	Mendelssohn: String Quartet, Op. 13
--	Mendelssohn: String Quartet in E-flat Major, Op. 44 No. 3
--	Moore, Dorothy Rudd: “Modes” for String Quartet
--	Mozart: String Quartet No.23 in F major, K.590
--	Prokofiev: String Quartet No. 1 in B Minor, Op. 50
+-	Janáček: String Quartet No. 2 “Intimate Letters”
+-	Mendelssohn, Fanny: String Quartet in E-flat Major
+-	Mendelssohn, Felix: String Quartet, Op. 13 in A Minor
+-	Mendelssohn, Felix: String Quartet, Op. 44 No. 1 in D Major
+-	Mendelssohn, Felix: String Quartet, Op. 44 No. 2 in E Minor
+-	Mendelssohn, Felix: String Quartet, Op. 44 No. 3 in E-flat Major
+-	Moore, Dorothy Rudd: “Modes” for String Quartet 
+-	Mozart: String Quartet No. 16 in E-flat major, K. 428/421b
+-	Mozart: String Quartet No. 23 in F major, K.590
+-	Prokofiev: String Quartet No. 2 in F Major Op. 92
 -	Ravel: String Quartet in F Major
 -	Schoenberg: String Quartet No. 4, Op. 37
--	Schubert: “Quartettsatz” c-Moll D 703
-- 	Shostakovich: String Quartet No. 3 in F Major, Op. 73
--	Smetana: String Quartet, From my Life
+-	Schubert: String Quartet No. 14 "Death and the Maiden"
+-	Schubert: String Quartet No. 15 in G Major
+-	Schubert: “Quartettsatz” in C Minor, D 703
+-	Shaw: Entr’acte
+-	Shostakovich: String Quartet No. 3, Op. 73 in F Major
+-	Smetana: String Quartet No. 1 in E Minor "From My Life"
 
 ### Other Ensembles
 -   Arensky: String Quartet with 2 Cellos No. 2, Op. 35 (mvt. I)
--	Giovanni Bottesini: Gran Quintet in C minor for Strings
--	Brahms: Piano Quartet No. 3 in C minor, Op. 60
--	Brahms: String Quintet No. 2 in G Major, Op. 111
--	Dohnyani: Piano Quintet No.1, Op.1
--	Dvorak: Piano Quintet No. 2 in A Major (mvt. I)
--	Dvorak: String Sextet in A major, Op. 48
--	Dvorak: Serenade for Wind Instruments, Cello and Double Bass in D minor
--	Korngold: String Sextet in D Major, Op. 10 (mvt. I)
+-	Bach: Chaconne for Cello Quartet arranged by Laszlo Varga
+-	Britten: Phantasy Quartet for Oboe and Strings, Op. 2
+-	Giovanni Bottesini: Gran Quintet in C minor for Strings 
+-	Brahms: Piano Quintet Op. 34, in F Minor (mvt. IV)
+-	Brahms: Piano Quartet  No. 3, Op. 60 in C Minor
+-	Brahms Viola Quintet No. 2, Op. 111 in G Major
+-	Crumb: Vox Balaenae for electric flute, electric cello and amplified piano
+-	Dohnányi: Piano Quintet No.1, Op.1 in C Minor
+-	Dohnányi: String Sextet in B-flat Major
+-	Dvořák: Bagatelles, Op. 47 for two violins, cello, and harmonium
+-	Dvořák: Piano Quintet No. 2, Op. 81 in A Major (mvt. I)
+-	Dvořák: String Sextet Op. 48, in A major (cello II)
+-	Dvořák: String Quintet in E-flat major, Op. 97 "American"
+-	Dvořák: Serenade, Op. 44 for wind instruments, cello, and double bass in D minor
+-	Enescu: String Octet in C Major, Op. 7 (cello II)
+-	Franck: Piano Quintet in F Minor (mvt. I)
+-	Korngold: String Sextet Op. 10 in D Major (mvt. I)
 -	Larsen, Libby: Up, Where the Air Gets Thin
--	Mendelssohn: String Octet in E-flat Major, Op. 20
+-	Mendelssohn: String Octet Op. 20 in E-flat Major
+-	Messiaen: Quartet for the End of Time
+-	Miura, Hiroya: Lustral Shades for shamisen, ryuteki, hichiriki, sho, and cello
+-	Mozart: String Quintet No. 1 in B-flat major, K. 174
 -	Mozart: String Quintet No. 3 in C Major, K. 515
+-	Mozart: Piano Quartet No. 1 in G minor, K. 478
 -	Mustonen, Olli: Nonet for Strings No. 2
--	Ravel: Sonata for Violin and Cello (mvt. I-II)
--	Schumann: Piano Quartet in E-flat Major, Op. 47
--	Strauss: Metamorphosen for 23 Strings
--	Stravinsky: “Pulcinella” Suite
--	Tchaikovsky: String Sextet in D Minor, Op. 70 "Souvenir de Florence"
+-	Ravel: Sonata for Violin and Cello (mvt. I, II)
+-	Schoenberg: Verklärte Nacht (cello I)
+-	Schubert: String Quintet in C Major, D. 956 (cello I, II)
+-	Schumann: Piano Quartet Op. 47 in E-flat Major
+-	Strauss: Metamorphosen for 23 Solo Strings
+-	Tchaikovsky: String Sextet in D Minor, Op. 70 Souvenir de Florence (cello I, II)

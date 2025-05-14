@@ -103,9 +103,9 @@ table.events-table {
     align-items: center;
     // top right bottom left
     margin: 0px 0rem 0rem 0px;
-    border-radius: 3px;
-    width: 2.4em;
-    height: 3em;
+    border-radius: 4px;
+    width: 2.6em;
+    height: 3.2em;
     box-shadow: 0 2px 10px rgba(0,0,0,0.2);
     font-size: calc(min(1.5rem, 6vw));
     background: rgba($background-color, 0.75);
@@ -124,6 +124,14 @@ table.events-table {
         .icon-month-font {
             text-transform: uppercase;
             font-size: 50%;
+        }
+
+        .end-date {
+            text-decoration: overline;
+            font-size: 30%;
+            font-weight: 500;
+            line-height: 0.6;
+            margin-top: 0.6em;
         }
     }
 
@@ -164,4 +172,55 @@ table.events-table {
 .break-words {
     word-break: break-word;
     overflow-wrap: break-word;
+}
+
+.timezone-note {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 0.9em;
+    color: #666;
+    font-style: italic;
+}
+
+// 1. Base shine keyframes
+@keyframes diagonal-shine {
+  from  { left: -150px; }
+  to    { left: 100%;   }
+}
+
+// 2. Skeleton helpers
+.skeleton-thumbnail,
+.skeleton-line {
+  position: relative;
+  background-color: rgba($grey-color-light, 0.3);
+  overflow: hidden;
+}
+.skeleton-thumbnail {
+  border-radius: 4px;
+}
+.skeleton-line {
+  height: 1em;
+  margin: 0.5em 0;
+  border-radius: 4px;
+}
+
+// 3. Shimmer overlay
+.skeleton-thumbnail::after,
+.skeleton-line::after {
+  content: "";
+  position: absolute;
+  top: 0; left: -150px;
+  width: 150px; height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(255,255,255,0),
+    rgba(255,255,255,0.4),
+    rgba(255,255,255,0)
+  );
+  animation: diagonal-shine 1.2s infinite ease-out;
+}
+
+// 4. Hide icons/text during skeleton
+.skeleton-row .material-icons {
+  visibility: hidden;
 }

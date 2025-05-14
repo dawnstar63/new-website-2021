@@ -1,31 +1,41 @@
-- Bach: Sonata for viola da gamba in D major BWV 1028
-- Barber: Cello Sonata Op. 6
-- Beethoven: Cello Sonata No. 1, 2, 3, 4, 5
-- Beethoven: 7 Variations on “Bei Männern”, WoO 46
-- Boccherini: Cello Sonata in A Major, G. 4
-- Boulanger: Three Pieces for Cello and Piano
-- Brahms: Cello Sonata No. 1 in E Minor, Op. 38
-- Brahms: Cello Sonata No. 2 in F Major, Op. 99
-- Bridge: Four Pieces for Cello and Piano
-- Carter: Cello Sonata
-- Cassadó: Requiebros
-- Chopin: Introduction and Polonaise Brillante in C Major, Op. 3
-- Chopin: Cello Sonata in G minor, Op. 65
-- Davidoff: At the Fountain Op. 20, No. 2
-- Debussy: Cello Sonata in D Minor
-- Franck: Sonata in A major for Violin and Piano
-- Francoeur: Sonata for Cello and Piano in E Major
-- Grieg: Cello Sonata in A minor, Op. 36
-- Janacek: Pohadka for Cello and Piano
-- Locatelli: Sonata for Cello and Piano
-- Mendelssohn: Cello Sonata No. 2 in D major, Op. 58
-- Mykola Lysenko: Elegy for Cello and Piano
-- Pärt: Fratres
-- Piazzolla: Le Grand Tango
-- Popper: Elfentanz, Op. 39
-- Prokofiev: Cello Sonata in C major, Op. 119
-- Rachmaninov: Cello Sonata, Op. 19
-- Schumann: Adagio and Allegro, Op. 70
-- Schumann: Fantasiestücke, Op. 73
-- Shostakovich: Sonata for Cello and Piano in D Minor, Op. 40
-- Schubert: Arpeggione Sonata in A Minor
+-	Bach: Sonata for Viola da Gamba in D major, BWV 1028
+-	Barber: Cello Sonata, Op. 6 in C Minor
+-	Beethoven: Cello Sonata No. 1, Op. 5 No. 1 in F Major
+-	Beethoven: Cello Sonata No. 2, Op. 5 No. 2 in G Minor
+-	Beethoven: Cello Sonata No. 3, Op. 69 in A Major
+-	Beethoven: Cello Sonata No. 4, Op. 102 No. 1 in C Major
+-	Beethoven: Cello Sonata No. 5, Op. 102 No. 1 in D Major
+-	Beethoven: 7 Variations on “Bei Männern”, WoO 46 in E-flat Major
+-	Brahms: Cello Sonata No. 1, Op. 38 in E Minor
+-	Brahms: Cello Sonata No. 2, Op. 99 in F Major
+-	Bridge: Four Pieces for Cello and Piano
+-	Boccherini: Cello Sonata in A major, G.4
+-	Boulanger: Three Pieces for Cello and Piano
+-	Carter: Cello Sonata 
+-	Cassadó: Requiebros
+-	Chopin: Introduction and Polonaise Brillante in C Major, Op. 3
+-	Chopin: Cello Sonata in G minor, Op. 65
+-	Davidoff: At the Fountain
+-	Debussy: Cello Sonata
+-	Franck: Sonata in A major for Violin and Piano
+-	Francoeur: Cello Sonata in E Major
+-	Grieg: Cello Sonata in A minor, Op. 36
+-	Janáček: Pohádka
+-	Locatelli: Cello Sonata in D Major
+-	Lysenko, Mykola: La Tristesse
+-	Mendelssohn: Cello Sonata No. 2 in D major, Op. 58
+-	Pärt: Fratres
+-	Piazzolla: Le Grand Tango
+-	Popper: Dance of the Elves “Elfentanz”, Op. 39
+-	Poulenc: Cello Sonata, FP 143
+-	Prokofiev: Cello Sonata in C major, Op. 119
+-	Rachmaninov: Cello Sonata, Op. 19
+-	Ravel: Violin Sonata No. 1 posthumous, arr. Proske
+-	Schubert: Arpeggione in A Minor
+-	Schumann: Adagio and Allegro, Op. 70 in A-flat Major
+-	Schumann: Fantasiestücke, Op. 73
+-	Schumann: Fünf Stücke im Volkston (“Five Folk Pieces”), Op.102
+-	Stravinsky: Suite Italienne for Cello and Piano
+-	Strauss: Cello Sonata, Op. 6 in F Major
+-	Wang, Anne Qian: The Cat That Lived a Million Lives
+-	Zwilich, Ellen Taaffe: Lament

@@ -113,8 +113,6 @@ function initializeParallax(clip) {
 	for (var i = parallax.length-1; i >=0; i--) {
 		parallax[i].parentNode.insertBefore(parallax[i], parallax[i].parentNode.firstChild);
 	}
-
-	console.log("initialized!");
 }
 
 function onResize(details) {
