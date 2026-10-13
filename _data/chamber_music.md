@@ -48,7 +48,7 @@
 -	Beethoven: String Quartet No. 12 in E-flat major, Op. 127
 -	Beethoven: String Quartet in C♯ minor, Op. 131
 -	Beethoven: String Quartet in A minor, Op. 132
--	Beranek, Jacob: String Quartet in One Movement
+-	Beranek, Jacob: String Quartet in One Movement\*
 -	Brahms: String Quartet in A Minor, Op. 51, No. 2
 -	Britten: String Quartet No. 1 in D major, Op. 25
 -	Dean, Brett: String Quartet No. 3, "Hidden Agendas"\*
@@ -104,7 +104,7 @@
 ### Other Ensembles
 -	Akiho, Andy: Lost on Chiaroscuro Street\*
 -	Bach: Chaconne for Cello Quartet arranged by Laszlo Varga
--	Balter, Marcos: Swarm Country
+-	Balter, Marcos: Swarm Country\*
 -	Brahms: Clarinet Quintet in B minor, Op. 115
 -	Britten: Phantasy Quartet for Oboe and Strings, Op. 2
 -	Brahms: Piano Quartet No. 1 in G minor, Op. 25

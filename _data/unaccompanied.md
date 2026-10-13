@@ -2,7 +2,7 @@
 - Britten: Solo Cello Suite No. 1
 - Cassado: Suite for Solo Cello
 - Crumb: Solo Cello Sonata
-- Davis, Tyson Gholston: Tableau VIII
+- Davis, Tyson Gholston: Tableau VIII\*
 - Hindemith: Sonata for Solo Cello, Op. 25 No. 3
 - Kodály: Sonata for Solo Cello in B minor, Op. 8
 - Ligeti: Sonata for Solo Cello
