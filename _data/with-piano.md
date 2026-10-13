@@ -35,7 +35,10 @@
 -	Schumann: Adagio and Allegro, Op. 70 in A-flat Major
 -	Schumann: Fantasiestücke, Op. 73
 -	Schumann: Fünf Stücke im Volkston (“Five Folk Pieces”), Op.102
+-	Shostakovich: Cello Sonata in D minor, Op. 40
 -	Stravinsky: Suite Italienne for Cello and Piano
 -	Strauss: Cello Sonata, Op. 6 in F Major
--	Wang, Anne Qian: The Cat That Lived a Million Lives
--	Zwilich, Ellen Taaffe: Lament
+-	Wang, Anne Qian: The Cat That Lived a Million Lives\*, commissioned
+-	Zwilich, Ellen Taaffe: Lament\*
+
+\*living composer

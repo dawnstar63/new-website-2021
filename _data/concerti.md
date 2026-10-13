@@ -8,4 +8,5 @@
 - Prokofiev: Sinfonia Concertante, Op. 125
 - Saint-Saëns: Cello Concerto No. 1, Op. 33
 - Schumann: Cello Concerto in A minor, Op. 129
+- Strauss: Don Quixote
 - Tchaikovsky: Variations on a Rococo Theme, Op. 33

@@ -8,5 +8,7 @@
 - Ligeti: Sonata for Solo Cello
 - Paganini: Caprices (arr. Silva) #5, 9, 13, 14, 20
 - Penderecki: Divertimento for Solo Cello
-- Reena, Esmail: Perhaps
-- Sollima: Alone
+- Reena, Esmail: Perhaps\*
+- Sollima: Alone\*
+
+\*living composer
